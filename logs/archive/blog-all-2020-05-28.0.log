@@ -1,0 +1,145 @@
+2020-05-28 07:17:03.866 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-LD5PAQI with PID 22228 (E:\Idea代码\blog\target\classes started by adminstrator in E:\Idea代码\blog)
+2020-05-28 07:17:03.921 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-28 07:17:03.932 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-28 07:17:16.475 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-28 07:17:17.020 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 387ms. Found 0 MongoDB repository interfaces.
+2020-05-28 07:17:19.484 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$28051004] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 07:17:19.776 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 07:17:19.806 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$e584e80] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 07:17:19.811 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$f52ff2c2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 07:17:19.820 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-05-28 07:17:20.109 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 07:17:20.132 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 07:17:20.261 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'statFilter' of type [com.alibaba.druid.filter.stat.StatFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 07:17:29.199 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-05-28 07:17:29.201 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 07:17:29.386 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 07:17:32.226 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 07:17:32.261 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 07:17:32.279 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 07:17:32.289 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminMapper' of type [com.sun.proxy.$Proxy78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 07:17:32.298 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminServiceImpl' of type [com.jg.blog.service.impl.AdminServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 07:17:32.303 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminRealm' of type [com.jg.blog.Realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 07:17:33.095 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 07:17:33.164 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 07:17:35.704 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 1001 (http)
+2020-05-28 07:17:35.839 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1001"]
+2020-05-28 07:17:35.843 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-05-28 07:17:35.846 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-28 07:17:36.752 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-05-28 07:17:36.752 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 31999 ms
+2020-05-28 07:17:40.970 INFO  [main]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-05-28 07:17:42.368 INFO  [cluster-ClusterId{value='5ecef514e3fd01795a1cbd5b', description='null'}-localhost:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-05-28 07:17:47.322 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1001"]
+2020-05-28 07:17:47.361 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 1001 (http) with context path ''
+2020-05-28 07:17:47.373 INFO  [main]com.jg.blog.BlogApplication.logStarted:61 -Started BlogApplication in 50.84 seconds (JVM running for 62.275)
+2020-05-28 07:28:50.842 INFO  [http-nio-1001-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-28 07:28:50.846 INFO  [http-nio-1001-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-05-28 07:28:50.925 INFO  [http-nio-1001-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 77 ms
+2020-05-28 07:28:51.422 INFO  [http-nio-1001-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -请求地址 : /admin/login
+2020-05-28 07:28:51.423 INFO  [http-nio-1001-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:115 -请求方式 : POST
+2020-05-28 07:28:51.423 INFO  [http-nio-1001-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -IP : 127.0.0.1
+2020-05-28 07:28:51.428 INFO  [http-nio-1001-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:120 -方法 : com.jg.blog.controller.AdminController.login
+2020-05-28 07:28:51.429 INFO  [http-nio-1001-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e807f1fcf82d132f9bb018ca6738a19f)]
+2020-05-28 07:28:51.723 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username = ? 
+2020-05-28 07:28:51.824 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: admin(String)
+2020-05-28 07:28:52.063 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-05-28 07:28:52.124 INFO  [http-nio-1001-exec-1]com.jg.blog.aspect.RequestAspect.doAround:68 -耗时 : 702
+2020-05-28 07:28:52.406 INFO  [http-nio-1001-exec-1]com.jg.blog.aspect.RequestAspect.doAfterReturning:82 -返回值：{"code":20000,"data":{"token":"3EFC60FD6931FD6AB10DCABFB82739DB"},"msg":"操作成功！"}
+2020-05-28 07:28:52.517 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-28 07:28:52.525 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e807f1fcf82d132f9bb018ca6738a19f)](String), 1(Integer), null, POST(String), 702(Long), {"code":20000,"data":{"token":"3EFC60FD6931FD6AB10DCABFB82739DB"},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-05-28 07:28:52.817 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-28 07:28:53.102 INFO  [http-nio-1001-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -请求地址 : /admin/info
+2020-05-28 07:28:53.102 INFO  [http-nio-1001-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:115 -请求方式 : GET
+2020-05-28 07:28:53.105 INFO  [http-nio-1001-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -IP : 127.0.0.1
+2020-05-28 07:28:53.106 INFO  [http-nio-1001-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:120 -方法 : com.jg.blog.controller.AdminController.getLoginInfo
+2020-05-28 07:28:53.106 INFO  [http-nio-1001-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -请求参数：[]
+2020-05-28 07:28:53.109 INFO  [http-nio-1001-exec-2]com.jg.blog.aspect.RequestAspect.doAround:68 -耗时 : 7
+2020-05-28 07:28:53.120 INFO  [http-nio-1001-exec-2]com.jg.blog.aspect.RequestAspect.doAfterReturning:82 -返回值：{"code":20000,"data":{"header":"http://39.97.183.122/group1/M00/00/00/rBGvAl7LcYyAZb8TAAf2zQ1Ix3Y328.gif","name":"稽哥66","password":"","username":"admin"},"msg":"操作成功！"}
+2020-05-28 07:28:53.174 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-28 07:28:53.174 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/info(String), [](String), 1(Integer), null, GET(String), 7(Long), {"code":20000,"data":{"header":"http://39.97.183.122/group1/M00/00/00/rBGvAl7LcYyAZb8TAAf2zQ1Ix3Y328.gif","name":"稽哥66","password":"","username":"admin"},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-05-28 07:28:53.271 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-28 07:28:53.476 INFO  [http-nio-1001-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -请求地址 : /type/getList
+2020-05-28 07:28:53.477 INFO  [http-nio-1001-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:115 -请求方式 : GET
+2020-05-28 07:28:53.478 INFO  [http-nio-1001-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -IP : 127.0.0.1
+2020-05-28 07:28:53.479 INFO  [http-nio-1001-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:120 -方法 : com.jg.blog.controller.TypeController.getList
+2020-05-28 07:28:53.480 INFO  [http-nio-1001-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -请求参数：[]
+2020-05-28 07:28:53.542 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.TypeMapper.getTypeList.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count from bl_type where deleted = 0 and enable = 1 
+2020-05-28 07:28:53.543 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.TypeMapper.getTypeList.debug:159 -==> Parameters: 
+2020-05-28 07:28:53.592 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.TypeMapper.getTypeList.debug:159 -<==      Total: 5
+2020-05-28 07:28:53.594 INFO  [http-nio-1001-exec-3]com.jg.blog.aspect.RequestAspect.doAround:68 -耗时 : 118
+2020-05-28 07:28:53.600 INFO  [http-nio-1001-exec-3]com.jg.blog.aspect.RequestAspect.doAfterReturning:82 -返回值：{"code":20000,"data":[{"typeBlogCount":3,"typeId":2,"typeName":"linux"},{"typeBlogCount":0,"typeId":3,"typeName":"docker"},{"typeBlogCount":0,"typeId":4,"typeName":"springboot"},{"typeBlogCount":0,"typeId":5,"typeName":"nginx"},{"typeBlogCount":0,"typeId":6,"typeName":"mybatis"}],"msg":"操作成功！"}
+2020-05-28 07:28:53.665 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-28 07:28:53.674 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/getList(String), [](String), 1(Integer), null, GET(String), 118(Long), {"code":20000,"data":[{"typeBlogCount":3,"typeId":2,"typeName":"linux"},{"typeBlogCount":0,"typeId":3,"typeName":"docker"},{"typeBlogCount":0,"typeId":4,"typeName":"springboot"},{"typeBlogCount":0,"typeId":5,"typeName":"nginx"},{"typeBlogCount":0,"typeId":6,"typeName":"mybatis"}],"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-05-28 07:28:53.773 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-28 15:21:44.780 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-LD5PAQI with PID 8040 (E:\Idea代码\blog\target\classes started by adminstrator in E:\Idea代码\blog)
+2020-05-28 15:21:44.786 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-28 15:21:44.787 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-28 15:21:46.354 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-28 15:21:46.413 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 51ms. Found 0 MongoDB repository interfaces.
+2020-05-28 15:21:47.271 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$f49eb8cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 15:21:47.395 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 15:21:47.419 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$daf1f748] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 15:21:47.432 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$c1c99b8a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 15:21:47.442 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-05-28 15:21:47.566 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 15:21:47.608 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 15:21:47.691 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'statFilter' of type [com.alibaba.druid.filter.stat.StatFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 15:21:53.647 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-05-28 15:21:53.649 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 15:21:53.811 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 15:21:54.653 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 15:21:54.683 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 15:21:54.726 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 15:21:54.740 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminMapper' of type [com.sun.proxy.$Proxy78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 15:21:54.749 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminServiceImpl' of type [com.jg.blog.service.impl.AdminServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 15:21:54.751 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminRealm' of type [com.jg.blog.Realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 15:21:54.838 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 15:21:54.892 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-28 15:21:56.044 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 1001 (http)
+2020-05-28 15:21:56.088 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1001"]
+2020-05-28 15:21:56.090 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-05-28 15:21:56.092 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-28 15:21:56.507 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-05-28 15:21:56.507 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 11521 ms
+2020-05-28 15:21:58.875 INFO  [main]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-05-28 15:21:59.931 INFO  [cluster-ClusterId{value='5ecf669645bc63391e3cdf2d', description='null'}-localhost:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-05-28 15:22:01.243 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1001"]
+2020-05-28 15:22:01.274 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 1001 (http) with context path ''
+2020-05-28 15:22:01.296 INFO  [main]com.jg.blog.BlogApplication.logStarted:61 -Started BlogApplication in 17.954 seconds (JVM running for 22.694)

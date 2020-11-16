@@ -1,0 +1,22 @@
+2020-05-27 09:12:05.166 WARN  [http-nio-1001-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for OPTIONS /login.jsp
+2020-05-27 09:12:09.989 WARN  [http-nio-1001-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for OPTIONS /login.jsp
+2020-05-27 10:13:59.225 WARN  [http-nio-1001-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for OPTIONS /login.jsp
+2020-05-27 10:14:02.006 WARN  [http-nio-1001-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for OPTIONS /login.jsp
+2020-05-27 10:14:14.713 WARN  [http-nio-1001-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for OPTIONS /login.jsp
+2020-05-27 10:47:22.474 WARN  [http-nio-1001-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for OPTIONS /login.jsp
+2020-05-27 10:47:50.122 WARN  [http-nio-1001-exec-10]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-05-27 10:52:51.137 WARN  [http-nio-1001-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for OPTIONS /login.jsp
+2020-05-27 11:01:07.607 WARN  [http-nio-1001-exec-10]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-05-27 12:36:39.352 WARN  [http-nio-1001-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for OPTIONS /login.jsp
+2020-05-27 12:36:45.533 WARN  [http-nio-1001-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for OPTIONS /login.jsp
+2020-05-27 13:35:10.977 WARN  [http-nio-1001-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for OPTIONS /login.jsp
+2020-05-27 13:35:18.330 WARN  [http-nio-1001-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for OPTIONS /login.jsp
+2020-05-27 13:35:45.960 WARN  [http-nio-1001-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for OPTIONS /login.jsp
+2020-05-27 13:35:54.879 WARN  [http-nio-1001-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for OPTIONS /login.jsp
+2020-05-27 14:41:31.681 WARN  [http-nio-1001-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for OPTIONS /login.jsp
+2020-05-27 15:01:01.239 WARN  [http-nio-1001-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /link/getList
+2020-05-27 15:01:04.741 WARN  [http-nio-1001-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /link/getList
+2020-05-27 15:12:52.356 WARN  [http-nio-1001-exec-9]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.jg.blog.pojo.Result<java.lang.Object> com.jg.blog.controller.LinkController.save(com.jg.blog.pojo.Link)]
+2020-05-27 15:13:32.412 WARN  [http-nio-1001-exec-8]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.jg.blog.pojo.Result<java.lang.Object> com.jg.blog.controller.LinkController.save(com.jg.blog.pojo.Link)]
+2020-05-27 15:15:33.311 WARN  [http-nio-1001-exec-1]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.jg.blog.pojo.Result<java.lang.Object> com.jg.blog.controller.LinkController.save(com.jg.blog.pojo.Link)]
+2020-05-27 15:16:29.815 WARN  [http-nio-1001-exec-4]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.jg.blog.pojo.Result<java.lang.Object> com.jg.blog.controller.LinkController.save(com.jg.blog.pojo.Link)]

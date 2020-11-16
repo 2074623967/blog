@@ -1,0 +1,14 @@
+2020-05-21 20:01:18.599 ERROR [main]o.s.boot.diagnostics.LoggingFailureAnalysisReporter.report:40 -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 1003 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 1003 or configure this application to listen on another port.
+

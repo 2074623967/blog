@@ -1,0 +1,55 @@
+2020-05-17 19:45:11.049 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-17 19:46:44.296 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-17 19:48:19.028 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-17 19:52:01.861 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-17 19:53:21.589 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-17 19:54:36.967 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-17 19:56:54.554 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-17 20:17:25.144 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-17 20:17:55.095 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-17 20:30:22.686 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-17 20:32:33.872 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-17 20:33:41.226 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-17 20:51:14.934 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-17 20:53:57.939 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-17 20:54:37.569 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-17 20:55:05.030 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-17 20:56:41.248 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-17 21:02:05.286 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-17 21:04:06.507 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-17 21:06:51.048 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-17 21:10:01.162 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-17 21:10:33.359 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-17 21:11:14.068 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-17 21:17:51.644 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-17 21:19:08.191 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-17 21:19:38.203 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-17 21:19:38.248 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /test/testException/1(String), [1](String), 1(Integer), null, GET(String), 14(Long), {"code":20000,"encrypt":0,"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-17 21:19:38.339 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-17 21:23:05.315 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-17 21:23:05.318 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /test/testException/2(String), [2](String), 0(Integer), com.jg.blog.exception.BlogException: 发生了异常!
+	at com.jg.blog.controller.TestController.testException(TestController.java:22)
+	at com.jg.blog.controller.TestController$$FastClassBySpringCGLIB$$101168d8.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:63)
+	at com.jg.blog.controller.TestController$$EnhancerBySpringCGLIB$$7bae5fb.testException(<generated>)
+(String), GET(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-05-17 21:23:05.415 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-17 21:28:31.880 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-17 21:28:48.372 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-17 21:28:48.417 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /test/testException/2(String), [2](String), 0(Integer), com.jg.blog.exception.BlogException: 发生了异常!
+	at com.jg.blog.controller.TestController.testException(TestController.java:22)
+	at com.jg.blog.controller.TestController$$FastClassBySpringCGLIB$$101168d8.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:63)
+	at com.jg.blog.controller.TestController$$EnhancerBySpringCGLIB$$27141ded.testException(<generated>)
+(String), GET(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-05-17 21:28:48.516 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-17 21:48:08.178 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-17 21:48:47.885 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-17 21:49:51.577 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-17 21:49:51.618 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /test/testException/2(String), [2](String), 0(Integer), com.jg.blog.exception.BlogException: 发生了异常!
+	at com.jg.blog.controller.TestController.testException(TestController.java:22)
+	at com.jg.blog.controller.TestController$$FastClassBySpringCGLIB$$101168d8.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.TestController$$EnhancerBySpringCGLIB$$147e05fe.testException(<generated>)
+(String), GET(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-05-17 21:49:51.868 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1

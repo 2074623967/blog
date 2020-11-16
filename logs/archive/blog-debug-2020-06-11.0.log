@@ -1,0 +1,477 @@
+2020-06-11 18:24:15.715 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.3.RELEASE, Spring v5.2.3.RELEASE
+2020-06-11 18:28:44.549 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.LinkMapper.getAll.debug:159 -==>  Preparing: select link_id, link_name, link_url, created_time, update_time from bl_link where deleted = 0 
+2020-06-11 18:28:44.554 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.MusicMapper.getList.debug:159 -==>  Preparing: select id, name, artist, url, cover, lrc from bl_music where deleted = 0 and enabled = 1 
+2020-06-11 18:28:44.642 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.BlogMapper.recomRead.debug:159 -==>  Preparing: select blog_id, blog_title, blog_goods, blog_read, blog_collection, blog_comment, created_time,type_name from bl_blog as b inner join bl_type as t on type_id = blog_type where t.deleted = 0 and b.deleted = 0 order by (blog_read + blog_goods) desc LIMIT 5 
+2020-06-11 18:28:44.831 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.MusicMapper.getList.debug:159 -==> Parameters: 
+2020-06-11 18:28:44.831 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.BlogMapper.recomRead.debug:159 -==> Parameters: 
+2020-06-11 18:28:44.831 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.LinkMapper.getAll.debug:159 -==> Parameters: 
+2020-06-11 18:28:45.319 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.MusicMapper.getList.debug:159 -<==      Total: 0
+2020-06-11 18:28:45.319 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.LinkMapper.getAll.debug:159 -<==      Total: 0
+2020-06-11 18:28:45.340 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.BlogMapper.recomRead.debug:159 -<==      Total: 5
+2020-06-11 18:28:45.435 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 18:28:45.440 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /link/list(String), [](String), 1(Integer), null, GET(String), 1912(Long), {"code":20000,"data":[],"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 18:28:45.451 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 18:28:45.452 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /music/getList(String), [](String), 1(Integer), null, GET(String), 1913(Long), {"code":20000,"data":[],"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 18:28:45.460 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 18:28:45.463 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /blog/recomRead(String), [](String), 1(Integer), null, POST(String), 1929(Long), {"code":20000,"data":[{"blogCollection":19,"blogComment":0,"blogGoods":1,"blogId":"1264358511910559744","blogRead":29,"blogTitle":"Java只使用位运算实现加减乘除","createdTime":"2020-05-24 00:52:15","typeName":"linux"},{"blogCollection":12,"blogComment":4,"blogGoods":3,"blogId":"1264365258452664320","blogRead":12,"blogTitle":"不使用比较运算符如何比较两个数的大小","createdTime":"2020-05-24 01:19:04","typeName":"java"},{"blogCollection":1,"blogComment":2,"blogGoods":2,"blogId":"1264726600279891968","blogRead":13,"blogTitle":"新生代与老年代","createdTime":"2020-05-25 01:14:56","typeName":"java"},{"blogCollection":0,"blogComment":5,"blogGoods":1,"blogId":"1264365631460507648","blogRead":11,"blogTitle":"Flutter、ReactNative、uniapp对比","createdTime":"2020-04-24 01:20:33","typeName":"linux"},{"blogCollection":0,"blogComment":5,"blogGoods":1,"blogId":"1264358089300877312","blogRead":4,"blogTitle":"Mybatis源码阅读（五 ）：接口层——SqlSession","createdTime":"2020-02-24 00:50:35","typeName":"java"}],"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 18:28:45.518 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.BlogMapper.getByPage.debug:159 -==>  Preparing: select blog_id, blog_title, blog_image,blog_goods, blog_read, blog_collection, blog_remark, blog_comment, blog_source, created_time, update_time,type_name from bl_blog as b inner join bl_type as t on type_id = blog_type where t.deleted = 0 and b.deleted = 0 order by created_time desc limit ?, ? 
+2020-06-11 18:28:45.519 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.BlogMapper.getByPage.debug:159 -==> Parameters: 0(Integer), 10(Integer)
+2020-06-11 18:28:45.537 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 18:28:45.570 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.BlogMapper.getByPage.debug:159 -<==      Total: 8
+2020-06-11 18:28:45.571 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.BlogMapper.getCountByPage.debug:159 -==>  Preparing: select count(*) from bl_blog as b inner join bl_type as t on type_id = blog_type where t.deleted = 0 and b.deleted = 0 
+2020-06-11 18:28:45.571 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.BlogMapper.getCountByPage.debug:159 -==> Parameters: 
+2020-06-11 18:28:45.620 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.BlogMapper.getCountByPage.debug:159 -<==      Total: 1
+2020-06-11 18:28:45.765 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 18:28:45.766 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 18:28:45.771 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /blog/getByPage(String), [Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=created_time, sortMethod=desc)](String), 1(Integer), null, POST(String), 840(Long), {"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blogCollection":1,"blogComment":2,"blogGoods":2,"blogId":"1264726600279891968","blogImage":"http://39.97.183.122/group1/M00/00/00/rBGvAl7LHAuAP_m_AAAzoN3Frv0553.jpg","blogRead":13,"blogTitle":"新生代与老年代","createdTime":"2020-05-25 01:14:56","typeName":"java","updateTime":"2020-06-10 11:31:50"},{"blogCollection":12,"blogComment":4,"blogGoods":3,"blogId":"1264365258452664320","blogRead":12,"blogTitle":"不使用比较运算符如何比较两个数的大小","createdTime":"2020-05-24 01:19:04","typeName":"java","updateTime":"2020-06-10 03:13:53"},{"blogCollection":19,"blogComment":0,"blogGoods":1,"blogId":"1264358511910559744","blogRead":29,"blogTitle":"Java只使用位运算实现加减乘除","createdTime":"2020-05-24 00:52:15","typeName":"linux","updateTime":"2020-06-10 06:48:39"},{"blogCollection":0,"blogComment":5,"blogGoods":1,"blogId":"1264365631460507648","blogRead":11,"blogTitle":"Flutter、ReactNative、uniapp对比","createdTime":"2020-04-24 01:20:33","typeName":"linux","updateTime":"2020-06-10 03:13:06"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1264363719424188416","blogRead":2,"blogTitle":"java进阶篇：用位运算实现加、减、乘、除","createdTime":"2020-04-24 01:12:57","typeName":"java","updateTime":"2020-06-09 13:21:36"},{"blogCollection":0,"blogComment":5,"blogGoods":1,"blogId":"1264358089300877312","blogRead":4,"blogTitle":"Mybatis源码阅读（五 ）：接口层——SqlSession","createdTime":"2020-02-24 00:50:35","typeName":"java","updateTime":"2020-06-10 03:12:22"},{"blogCollection":0,"blogComment":1,"blogGoods":1,"blogId":"1264358056178458624","blogImage":"http://39.97.183.122/group1/M00/00/00/rBGvAl7KbwqAAb-IAAAILq5d_SI847.png","blogRead":3,"blogTitle":"Mybatis源码阅读（五 ）：接口层——SqlSession","createdTime":"2020-02-24 00:50:27","typeName":"linux","updateTime":"2020-06-10 03:10:30"},{"blogCollection":0,"blogComment":1,"blogGoods":0,"blogId":"1264357690636476416","blogImage":"http://39.97.183.122/group1/M00/00/00/rBGvAl7KbfWAMxLPAABgjnKno8E447.jpg","blogRead":2,"blogTitle":"垃圾回收算法","createdTime":"2020-02-24 00:49:00","typeName":"java","updateTime":"2020-06-10 03:10:48"}],"pageSize":10,"params":{},"sortColumn":"created_time","sortMethod":"desc","totalCount":8,"totalPage":1},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 18:28:45.772 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 18:28:45.837 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 19:34:47.277 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.UserMapper.getByUsername.debug:159 -==>  Preparing: select user_id, username, password, sex, header, nickname, user_email, deleted from bl_user where username = ? 
+2020-06-11 19:34:47.298 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.UserMapper.getByUsername.debug:159 -==> Parameters: admin(String)
+2020-06-11 19:34:47.342 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.UserMapper.getByUsername.debug:159 -<==      Total: 0
+2020-06-11 19:34:47.438 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 19:34:47.441 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e807f1fcf82d132f9bb018ca6738a19f)](String), 1(Integer), null, POST(String), 308(Long), {"code":40002,"msg":"用户名或密码错误!"}(String), 127.0.0.1(String)
+2020-06-11 19:34:47.499 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 19:55:15.602 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.UserMapper.getByUsername.debug:159 -==>  Preparing: select user_id, username, password, sex, header, nickname, user_email, deleted from bl_user where username = ? 
+2020-06-11 19:55:15.611 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.UserMapper.getByUsername.debug:159 -==> Parameters: admin(String)
+2020-06-11 19:55:15.647 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.UserMapper.getByUsername.debug:159 -<==      Total: 0
+2020-06-11 19:55:15.703 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 19:55:15.707 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e807f1fcf82d132f9bb018ca6738a19f)](String), 1(Integer), null, POST(String), 173(Long), {"code":40002,"msg":"用户名或密码错误!"}(String), 127.0.0.1(String)
+2020-06-11 19:55:15.766 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 20:31:57.250 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.3.RELEASE, Spring v5.2.3.RELEASE
+2020-06-11 20:33:30.042 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.3.RELEASE, Spring v5.2.3.RELEASE
+2020-06-11 20:37:03.572 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.3.RELEASE, Spring v5.2.3.RELEASE
+2020-06-11 20:38:15.171 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.3.RELEASE, Spring v5.2.3.RELEASE
+2020-06-11 20:38:58.988 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.3.RELEASE, Spring v5.2.3.RELEASE
+2020-06-11 20:39:25.276 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.UserMapper.getByUsername.debug:159 -==>  Preparing: select user_id, username, password, sex, header, nickname, user_email, deleted from bl_user where username = ? 
+2020-06-11 20:39:25.321 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.UserMapper.getByUsername.debug:159 -==> Parameters: admin(String)
+2020-06-11 20:39:25.390 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.UserMapper.getByUsername.debug:159 -<==      Total: 0
+2020-06-11 20:39:25.703 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 20:39:25.709 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e807f1fcf82d132f9bb018ca6738a19f)](String), 1(Integer), null, POST(String), 237(Long), {"code":40002,"msg":"用户名或密码错误!"}(String), 127.0.0.1(String)
+2020-06-11 20:39:25.770 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:01:39.918 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.3.RELEASE, Spring v5.2.3.RELEASE
+2020-06-11 21:01:56.544 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username = ? 
+2020-06-11 21:01:56.579 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: admin(String)
+2020-06-11 21:01:56.663 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-06-11 21:01:56.813 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:01:56.819 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e807f1fcf82d132f9bb018ca6738a19f)](String), 1(Integer), null, POST(String), 270(Long), {"code":20000,"data":{"token":"53DF7F520BBFF8F1006A678772B4D317"},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 21:01:56.891 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:01:57.145 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:01:57.146 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/info(String), [](String), 1(Integer), null, GET(String), 5(Long), {"code":20000,"data":{"header":"http://39.97.183.122/group1/M00/00/00/rBGvAl7LcYyAZb8TAAf2zQ1Ix3Y328.gif","name":"稽哥66","password":"","username":"admin"},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 21:01:57.212 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:01:58.080 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.TypeMapper.getTypeList.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count from bl_type where deleted = 0 and enable = 1 
+2020-06-11 21:01:58.084 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.TypeMapper.getTypeList.debug:159 -==> Parameters: 
+2020-06-11 21:01:58.128 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.TypeMapper.getTypeList.debug:159 -<==      Total: 6
+2020-06-11 21:01:58.185 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:01:58.190 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/getList(String), [](String), 1(Integer), null, GET(String), 102(Long), {"code":20000,"data":[{"typeBlogCount":6,"typeId":1,"typeName":"java"},{"typeBlogCount":3,"typeId":2,"typeName":"linux"},{"typeBlogCount":0,"typeId":3,"typeName":"docker"},{"typeBlogCount":0,"typeId":4,"typeName":"springboot"},{"typeBlogCount":0,"typeId":5,"typeName":"nginx"},{"typeBlogCount":0,"typeId":6,"typeName":"mybatis"}],"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 21:01:58.256 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:12:01.871 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.AdminMapper.getAdmin.debug:159 -==>  Preparing: select id, name, header, signature, comment, username from bl_admin limit 1 
+2020-06-11 21:12:01.872 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.AdminMapper.getAdmin.debug:159 -==> Parameters: 
+2020-06-11 21:12:01.907 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.AdminMapper.getAdmin.debug:159 -<==      Total: 1
+2020-06-11 21:12:01.950 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:12:01.952 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/getAdmin(String), [](String), 1(Integer), null, GET(String), 82(Long), {"code":20000,"data":{"header":"http://39.97.183.122/group1/M00/00/00/rBGvAl7LcYyAZb8TAAf2zQ1Ix3Y328.gif","id":1,"name":"稽哥66","username":"admin"},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 21:12:02.011 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.BlogMapper.getByPage.debug:159 -==>  Preparing: select blog_id, blog_title, blog_image,blog_goods, blog_read, blog_collection, blog_remark, blog_comment, blog_source, created_time, update_time,type_name from bl_blog as b inner join bl_type as t on type_id = blog_type where t.deleted = 0 and b.deleted = 0 order by created_time desc limit ?, ? 
+2020-06-11 21:12:02.013 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.BlogMapper.getByPage.debug:159 -==> Parameters: 0(Integer), 10(Integer)
+2020-06-11 21:12:02.019 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:12:02.065 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.BlogMapper.getByPage.debug:159 -<==      Total: 8
+2020-06-11 21:12:02.067 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.BlogMapper.getCountByPage.debug:159 -==>  Preparing: select count(*) from bl_blog as b inner join bl_type as t on type_id = blog_type where t.deleted = 0 and b.deleted = 0 
+2020-06-11 21:12:02.069 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.BlogMapper.getCountByPage.debug:159 -==> Parameters: 
+2020-06-11 21:12:02.080 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.BlogMapper.recomRead.debug:159 -==>  Preparing: select blog_id, blog_title, blog_goods, blog_read, blog_collection, blog_comment, created_time,type_name from bl_blog as b inner join bl_type as t on type_id = blog_type where t.deleted = 0 and b.deleted = 0 order by (blog_read + blog_goods) desc LIMIT 5 
+2020-06-11 21:12:02.084 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.BlogMapper.recomRead.debug:159 -==> Parameters: 
+2020-06-11 21:12:02.097 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.MusicMapper.getList.debug:159 -==>  Preparing: select id, name, artist, url, cover, lrc from bl_music where deleted = 0 and enabled = 1 
+2020-06-11 21:12:02.098 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.MusicMapper.getList.debug:159 -==> Parameters: 
+2020-06-11 21:12:02.105 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.BlogMapper.getCountByPage.debug:159 -<==      Total: 1
+2020-06-11 21:12:02.108 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.LinkMapper.getAll.debug:159 -==>  Preparing: select link_id, link_name, link_url, created_time, update_time from bl_link where deleted = 0 
+2020-06-11 21:12:02.109 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.LinkMapper.getAll.debug:159 -==> Parameters: 
+2020-06-11 21:12:02.128 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.MusicMapper.getList.debug:159 -<==      Total: 0
+2020-06-11 21:12:02.134 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.BlogMapper.recomRead.debug:159 -<==      Total: 5
+2020-06-11 21:12:02.143 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.LinkMapper.getAll.debug:159 -<==      Total: 0
+2020-06-11 21:12:02.166 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:12:02.168 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /music/getList(String), [](String), 1(Integer), null, GET(String), 98(Long), {"code":20000,"data":[],"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 21:12:02.197 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:12:02.201 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /link/list(String), [](String), 1(Integer), null, GET(String), 109(Long), {"code":20000,"data":[],"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 21:12:02.208 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:12:02.212 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /blog/recomRead(String), [](String), 1(Integer), null, POST(String), 106(Long), {"code":20000,"data":[{"blogCollection":19,"blogComment":0,"blogGoods":1,"blogId":"1264358511910559744","blogRead":29,"blogTitle":"Java只使用位运算实现加减乘除","createdTime":"2020-05-24 00:52:15","typeName":"linux"},{"blogCollection":12,"blogComment":4,"blogGoods":3,"blogId":"1264365258452664320","blogRead":12,"blogTitle":"不使用比较运算符如何比较两个数的大小","createdTime":"2020-05-24 01:19:04","typeName":"java"},{"blogCollection":1,"blogComment":2,"blogGoods":2,"blogId":"1264726600279891968","blogRead":13,"blogTitle":"新生代与老年代","createdTime":"2020-05-25 01:14:56","typeName":"java"},{"blogCollection":0,"blogComment":5,"blogGoods":1,"blogId":"1264365631460507648","blogRead":11,"blogTitle":"Flutter、ReactNative、uniapp对比","createdTime":"2020-04-24 01:20:33","typeName":"linux"},{"blogCollection":0,"blogComment":5,"blogGoods":1,"blogId":"1264358089300877312","blogRead":4,"blogTitle":"Mybatis源码阅读（五 ）：接口层——SqlSession","createdTime":"2020-02-24 00:50:35","typeName":"java"}],"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 21:12:02.245 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:12:02.246 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:12:02.247 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /blog/getByPage(String), [Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=created_time, sortMethod=desc)](String), 1(Integer), null, POST(String), 347(Long), {"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blogCollection":1,"blogComment":2,"blogGoods":2,"blogId":"1264726600279891968","blogImage":"http://39.97.183.122/group1/M00/00/00/rBGvAl7LHAuAP_m_AAAzoN3Frv0553.jpg","blogRead":13,"blogTitle":"新生代与老年代","createdTime":"2020-05-25 01:14:56","typeName":"java","updateTime":"2020-06-10 11:31:50"},{"blogCollection":12,"blogComment":4,"blogGoods":3,"blogId":"1264365258452664320","blogRead":12,"blogTitle":"不使用比较运算符如何比较两个数的大小","createdTime":"2020-05-24 01:19:04","typeName":"java","updateTime":"2020-06-10 03:13:53"},{"blogCollection":19,"blogComment":0,"blogGoods":1,"blogId":"1264358511910559744","blogRead":29,"blogTitle":"Java只使用位运算实现加减乘除","createdTime":"2020-05-24 00:52:15","typeName":"linux","updateTime":"2020-06-10 06:48:39"},{"blogCollection":0,"blogComment":5,"blogGoods":1,"blogId":"1264365631460507648","blogRead":11,"blogTitle":"Flutter、ReactNative、uniapp对比","createdTime":"2020-04-24 01:20:33","typeName":"linux","updateTime":"2020-06-10 03:13:06"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1264363719424188416","blogRead":2,"blogTitle":"java进阶篇：用位运算实现加、减、乘、除","createdTime":"2020-04-24 01:12:57","typeName":"java","updateTime":"2020-06-09 13:21:36"},{"blogCollection":0,"blogComment":5,"blogGoods":1,"blogId":"1264358089300877312","blogRead":4,"blogTitle":"Mybatis源码阅读（五 ）：接口层——SqlSession","createdTime":"2020-02-24 00:50:35","typeName":"java","updateTime":"2020-06-10 03:12:22"},{"blogCollection":0,"blogComment":1,"blogGoods":1,"blogId":"1264358056178458624","blogImage":"http://39.97.183.122/group1/M00/00/00/rBGvAl7KbwqAAb-IAAAILq5d_SI847.png","blogRead":3,"blogTitle":"Mybatis源码阅读（五 ）：接口层——SqlSession","createdTime":"2020-02-24 00:50:27","typeName":"linux","updateTime":"2020-06-10 03:10:30"},{"blogCollection":0,"blogComment":1,"blogGoods":0,"blogId":"1264357690636476416","blogImage":"http://39.97.183.122/group1/M00/00/00/rBGvAl7KbfWAMxLPAABgjnKno8E447.jpg","blogRead":2,"blogTitle":"垃圾回收算法","createdTime":"2020-02-24 00:49:00","typeName":"java","updateTime":"2020-06-10 03:10:48"}],"pageSize":10,"params":{},"sortColumn":"created_time","sortMethod":"desc","totalCount":8,"totalPage":1},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 21:12:02.266 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:12:02.290 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:12:02.316 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:12:07.066 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:12:07.068 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /user/commentAndCollectionCount(String), [](String), 0(Integer), java.lang.ClassCastException: com.jg.blog.pojo.Admin cannot be cast to com.jg.blog.pojo.User
+	at com.jg.blog.service.impl.UserServiceImpl.getCommentAndCollectionCount(UserServiceImpl.java:123)
+	at com.jg.blog.controller.UserController.commentAndCollectionCount(UserController.java:159)
+	at com.jg.blog.controller.UserController$$FastClassBySpringCGLIB$$67991cd1.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.UserController$$EnhancerBySpringCGLIB$$6185bafe.commentAndCollectionCount(<generated>)
+(String), GET(String), 0(Long), null, 127.0.0.1(String)
+2020-06-11 21:12:07.138 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:12:08.567 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:12:08.568 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /blog/getCollectionList(String), [Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)](String), 0(Integer), java.lang.ClassCastException: com.jg.blog.pojo.Admin cannot be cast to com.jg.blog.pojo.User
+	at com.jg.blog.service.impl.BlogServiceImpl.getCollectionByPage(BlogServiceImpl.java:169)
+	at com.jg.blog.service.impl.BlogServiceImpl$$FastClassBySpringCGLIB$$ad9b5dc6.invoke(<generated>)
+	at com.jg.blog.service.impl.BlogServiceImpl$$EnhancerBySpringCGLIB$$ab3d8d16.getCollectionByPage(<generated>)
+	at com.jg.blog.service.impl.BlogServiceImpl$$FastClassBySpringCGLIB$$ad9b5dc6.invoke(<generated>)
+	at com.jg.blog.service.impl.BlogServiceImpl$$EnhancerBySpringCGLIB$$2d2722f8.getCollectionByPage(<generated>)
+	at com.jg.blog.controller.BlogController.getCollectionList(BlogController.java:182)
+	at com.jg.blog.controller.BlogController$$FastClassBySpringCGLIB$$5aabfe8.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.BlogController$$EnhancerBySpringCGLIB$$d951caa3.getCollectionList(<generated>)
+(String), POST(String), 0(Long), null, 127.0.0.1(String)
+2020-06-11 21:12:08.642 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:12:09.253 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:12:09.255 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /comment/getList(String), [Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)](String), 0(Integer), java.lang.ClassCastException: com.jg.blog.pojo.Admin cannot be cast to com.jg.blog.pojo.User
+	at com.jg.blog.service.impl.CommentServiceImpl.getByPage(CommentServiceImpl.java:118)
+	at com.jg.blog.controller.CommentController.getList(CommentController.java:91)
+	at com.jg.blog.controller.CommentController$$FastClassBySpringCGLIB$$f47cbc11.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.CommentController$$EnhancerBySpringCGLIB$$2ece20be.getList(<generated>)
+(String), POST(String), 0(Long), {"code":20000,"data":{"token":"53DF7F520BBFF8F1006A678772B4D317"},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 21:12:09.324 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:12:11.234 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:12:11.238 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /user/commentAndCollectionCount(String), [](String), 0(Integer), java.lang.ClassCastException: com.jg.blog.pojo.Admin cannot be cast to com.jg.blog.pojo.User
+	at com.jg.blog.service.impl.UserServiceImpl.getCommentAndCollectionCount(UserServiceImpl.java:123)
+	at com.jg.blog.controller.UserController.commentAndCollectionCount(UserController.java:159)
+	at com.jg.blog.controller.UserController$$FastClassBySpringCGLIB$$67991cd1.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.UserController$$EnhancerBySpringCGLIB$$6185bafe.commentAndCollectionCount(<generated>)
+(String), GET(String), 0(Long), {"code":20000,"data":{"header":"http://39.97.183.122/group1/M00/00/00/rBGvAl7LcYyAZb8TAAf2zQ1Ix3Y328.gif","name":"稽哥66","password":"","username":"admin"},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 21:12:11.313 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:12:28.898 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.UserMapper.getByUsername.debug:159 -==>  Preparing: select user_id, username, password, sex, header, nickname, user_email, deleted from bl_user where username = ? 
+2020-06-11 21:12:28.899 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.UserMapper.getByUsername.debug:159 -==> Parameters: tangtu22(String)
+2020-06-11 21:12:28.935 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.UserMapper.getByUsername.debug:159 -<==      Total: 1
+2020-06-11 21:12:28.987 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:12:28.989 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /user/login(String), [User(userId=null, username=tangtu22, password=e807f1fcf82d132f9bb018ca6738a19f, name=null, sex=null, header=null, nickname=null, userEmail=null, createdTime=null, updateTime=null, version=null, deleted=null)](String), 1(Integer), null, POST(String), 77(Long), {"code":20000,"data":{"user":{"deleted":0,"nickname":"老王11222222","password":"","sex":1,"userEmail":"2074623967@qq.com","userId":4,"username":"tangtu22"},"token":"53DF7F520BBFF8F1006A678772B4D317"},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 21:12:29.069 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:12:29.593 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.BlogMapper.getByPage.debug:159 -==>  Preparing: select blog_id, blog_title, blog_image,blog_goods, blog_read, blog_collection, blog_remark, blog_comment, blog_source, created_time, update_time,type_name from bl_blog as b inner join bl_type as t on type_id = blog_type where t.deleted = 0 and b.deleted = 0 order by created_time desc limit ?, ? 
+2020-06-11 21:12:29.595 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.BlogMapper.getByPage.debug:159 -==> Parameters: 0(Integer), 10(Integer)
+2020-06-11 21:12:30.287 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.BlogMapper.getByPage.debug:159 -<==      Total: 8
+2020-06-11 21:12:30.289 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.BlogMapper.getCountByPage.debug:159 -==>  Preparing: select count(*) from bl_blog as b inner join bl_type as t on type_id = blog_type where t.deleted = 0 and b.deleted = 0 
+2020-06-11 21:12:30.292 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.BlogMapper.getCountByPage.debug:159 -==> Parameters: 
+2020-06-11 21:12:30.545 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.MusicMapper.getList.debug:159 -==>  Preparing: select id, name, artist, url, cover, lrc from bl_music where deleted = 0 and enabled = 1 
+2020-06-11 21:12:30.547 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.MusicMapper.getList.debug:159 -==> Parameters: 
+2020-06-11 21:12:30.630 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.BlogMapper.recomRead.debug:159 -==>  Preparing: select blog_id, blog_title, blog_goods, blog_read, blog_collection, blog_comment, created_time,type_name from bl_blog as b inner join bl_type as t on type_id = blog_type where t.deleted = 0 and b.deleted = 0 order by (blog_read + blog_goods) desc LIMIT 5 
+2020-06-11 21:12:30.631 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.BlogMapper.recomRead.debug:159 -==> Parameters: 
+2020-06-11 21:12:30.634 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.BlogMapper.getCountByPage.debug:159 -<==      Total: 1
+2020-06-11 21:12:30.634 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.MusicMapper.getList.debug:159 -<==      Total: 0
+2020-06-11 21:12:30.639 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.AdminMapper.getAdmin.debug:159 -==>  Preparing: select id, name, header, signature, comment, username from bl_admin limit 1 
+2020-06-11 21:12:30.640 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.AdminMapper.getAdmin.debug:159 -==> Parameters: 
+2020-06-11 21:12:30.645 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LinkMapper.getAll.debug:159 -==>  Preparing: select link_id, link_name, link_url, created_time, update_time from bl_link where deleted = 0 
+2020-06-11 21:12:30.646 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LinkMapper.getAll.debug:159 -==> Parameters: 
+2020-06-11 21:12:30.672 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.BlogMapper.recomRead.debug:159 -<==      Total: 5
+2020-06-11 21:12:30.675 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:12:30.676 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /music/getList(String), [](String), 1(Integer), null, GET(String), 349(Long), {"code":20000,"data":[],"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 21:12:30.676 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.AdminMapper.getAdmin.debug:159 -<==      Total: 1
+2020-06-11 21:12:30.679 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LinkMapper.getAll.debug:159 -<==      Total: 0
+2020-06-11 21:12:30.713 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:12:30.715 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /blog/recomRead(String), [](String), 1(Integer), null, POST(String), 391(Long), {"code":20000,"data":[{"blogCollection":19,"blogComment":0,"blogGoods":1,"blogId":"1264358511910559744","blogRead":29,"blogTitle":"Java只使用位运算实现加减乘除","createdTime":"2020-05-24 00:52:15","typeName":"linux"},{"blogCollection":12,"blogComment":4,"blogGoods":3,"blogId":"1264365258452664320","blogRead":12,"blogTitle":"不使用比较运算符如何比较两个数的大小","createdTime":"2020-05-24 01:19:04","typeName":"java"},{"blogCollection":1,"blogComment":2,"blogGoods":2,"blogId":"1264726600279891968","blogRead":13,"blogTitle":"新生代与老年代","createdTime":"2020-05-25 01:14:56","typeName":"java"},{"blogCollection":0,"blogComment":5,"blogGoods":1,"blogId":"1264365631460507648","blogRead":11,"blogTitle":"Flutter、ReactNative、uniapp对比","createdTime":"2020-04-24 01:20:33","typeName":"linux"},{"blogCollection":0,"blogComment":5,"blogGoods":1,"blogId":"1264358089300877312","blogRead":4,"blogTitle":"Mybatis源码阅读（五 ）：接口层——SqlSession","createdTime":"2020-02-24 00:50:35","typeName":"java"}],"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 21:12:30.735 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:12:30.739 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:12:30.740 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /link/list(String), [](String), 1(Integer), null, GET(String), 396(Long), {"code":20000,"data":[],"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 21:12:30.740 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/getAdmin(String), [](String), 1(Integer), null, GET(String), 407(Long), {"code":20000,"data":{"header":"http://39.97.183.122/group1/M00/00/00/rBGvAl7LcYyAZb8TAAf2zQ1Ix3Y328.gif","id":1,"name":"稽哥66","username":"admin"},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 21:12:30.743 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:12:30.746 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /blog/getByPage(String), [Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=created_time, sortMethod=desc)](String), 1(Integer), null, POST(String), 1187(Long), {"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blogCollection":1,"blogComment":2,"blogGoods":2,"blogId":"1264726600279891968","blogImage":"http://39.97.183.122/group1/M00/00/00/rBGvAl7LHAuAP_m_AAAzoN3Frv0553.jpg","blogRead":13,"blogTitle":"新生代与老年代","createdTime":"2020-05-25 01:14:56","typeName":"java","updateTime":"2020-06-10 11:31:50"},{"blogCollection":12,"blogComment":4,"blogGoods":3,"blogId":"1264365258452664320","blogRead":12,"blogTitle":"不使用比较运算符如何比较两个数的大小","createdTime":"2020-05-24 01:19:04","typeName":"java","updateTime":"2020-06-10 03:13:53"},{"blogCollection":19,"blogComment":0,"blogGoods":1,"blogId":"1264358511910559744","blogRead":29,"blogTitle":"Java只使用位运算实现加减乘除","createdTime":"2020-05-24 00:52:15","typeName":"linux","updateTime":"2020-06-10 06:48:39"},{"blogCollection":0,"blogComment":5,"blogGoods":1,"blogId":"1264365631460507648","blogRead":11,"blogTitle":"Flutter、ReactNative、uniapp对比","createdTime":"2020-04-24 01:20:33","typeName":"linux","updateTime":"2020-06-10 03:13:06"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1264363719424188416","blogRead":2,"blogTitle":"java进阶篇：用位运算实现加、减、乘、除","createdTime":"2020-04-24 01:12:57","typeName":"java","updateTime":"2020-06-09 13:21:36"},{"blogCollection":0,"blogComment":5,"blogGoods":1,"blogId":"1264358089300877312","blogRead":4,"blogTitle":"Mybatis源码阅读（五 ）：接口层——SqlSession","createdTime":"2020-02-24 00:50:35","typeName":"java","updateTime":"2020-06-10 03:12:22"},{"blogCollection":0,"blogComment":1,"blogGoods":1,"blogId":"1264358056178458624","blogImage":"http://39.97.183.122/group1/M00/00/00/rBGvAl7KbwqAAb-IAAAILq5d_SI847.png","blogRead":3,"blogTitle":"Mybatis源码阅读（五 ）：接口层——SqlSession","createdTime":"2020-02-24 00:50:27","typeName":"linux","updateTime":"2020-06-10 03:10:30"},{"blogCollection":0,"blogComment":1,"blogGoods":0,"blogId":"1264357690636476416","blogImage":"http://39.97.183.122/group1/M00/00/00/rBGvAl7KbfWAMxLPAABgjnKno8E447.jpg","blogRead":2,"blogTitle":"垃圾回收算法","createdTime":"2020-02-24 00:49:00","typeName":"java","updateTime":"2020-06-10 03:10:48"}],"pageSize":10,"params":{},"sortColumn":"created_time","sortMethod":"desc","totalCount":8,"totalPage":1},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 21:12:30.756 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:12:30.786 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:12:30.811 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:12:30.811 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:12:30.820 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:13:48.823 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.MusicMapper.getByPage.debug:159 -==>  Preparing: select id, name, artist, url, cover, created_time, enabled from bl_music where deleted = 0 limit ?, ? 
+2020-06-11 21:13:48.824 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.MusicMapper.getByPage.debug:159 -==> Parameters: 0(Integer), 10(Integer)
+2020-06-11 21:13:48.925 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.MusicMapper.getByPage.debug:159 -<==      Total: 0
+2020-06-11 21:13:49.038 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.MusicMapper.getCountByPage.debug:159 -==>  Preparing: select count(*) from bl_music where deleted = 0 
+2020-06-11 21:13:49.039 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.MusicMapper.getCountByPage.debug:159 -==> Parameters: 
+2020-06-11 21:13:49.130 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.MusicMapper.getCountByPage.debug:159 -<==      Total: 1
+2020-06-11 21:13:49.238 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:13:49.239 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /music/getByPage(String), [Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)](String), 1(Integer), java.lang.ClassCastException: com.jg.blog.pojo.Admin cannot be cast to com.jg.blog.pojo.User
+	at com.jg.blog.service.impl.UserServiceImpl.getCommentAndCollectionCount(UserServiceImpl.java:123)
+	at com.jg.blog.controller.UserController.commentAndCollectionCount(UserController.java:159)
+	at com.jg.blog.controller.UserController$$FastClassBySpringCGLIB$$67991cd1.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.UserController$$EnhancerBySpringCGLIB$$6185bafe.commentAndCollectionCount(<generated>)
+(String), POST(String), 429(Long), {"code":20000,"data":{"currentPage":1,"index":0,"list":[],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":0,"totalPage":0},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 21:13:49.368 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:14:16.093 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:14:16.096 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /upload/uploadImage(String), [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@1a1d1ef6](String), 0(Integer), com.github.tobato.fastdfs.exception.FdfsConnectException: 无法获取服务端连接资源：can't create connection to/39.97.183.122:22122
+	at com.jg.blog.utils.UploadService.uploadImage(UploadService.java:44)
+	at com.jg.blog.controller.UploadController.uploadImage(UploadController.java:30)
+	at com.jg.blog.controller.UploadController$$FastClassBySpringCGLIB$$4070d907.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.UploadController$$EnhancerBySpringCGLIB$$5914160.uploadImage(<generated>)
+Caused by: java.net.SocketTimeoutException: connect timed out
+(String), POST(String), 0(Long), null, 127.0.0.1(String)
+2020-06-11 21:14:16.162 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:14:45.688 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:14:45.690 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /upload/uploadImage(String), [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@2217b945](String), 0(Integer), java.lang.RuntimeException: Unable to borrow buffer from pool
+	at com.jg.blog.utils.UploadService.uploadImage(UploadService.java:44)
+	at com.jg.blog.controller.UploadController.uploadImage(UploadController.java:30)
+	at com.jg.blog.controller.UploadController$$FastClassBySpringCGLIB$$4070d907.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.UploadController$$EnhancerBySpringCGLIB$$5914160.uploadImage(<generated>)
+Caused by: com.github.tobato.fastdfs.exception.FdfsUnavailableException: 无法获取服务端连接资源：找不到可用的tracker /39.97.183.122:22122,
+(String), POST(String), 0(Long), {"code":20000,"data":{"token":"53DF7F520BBFF8F1006A678772B4D317"},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 21:14:45.757 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:24:04.352 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:24:04.353 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /upload/uploadImage(String), [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@2c920492](String), 0(Integer), java.lang.RuntimeException: Unable to borrow buffer from pool
+	at com.jg.blog.utils.UploadService.uploadImage(UploadService.java:44)
+	at com.jg.blog.controller.UploadController.uploadImage(UploadController.java:30)
+	at com.jg.blog.controller.UploadController$$FastClassBySpringCGLIB$$4070d907.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.UploadController$$EnhancerBySpringCGLIB$$5914160.uploadImage(<generated>)
+Caused by: com.github.tobato.fastdfs.exception.FdfsUnavailableException: 无法获取服务端连接资源：找不到可用的tracker /39.97.183.122:22122,
+(String), POST(String), 0(Long), {"code":20000,"data":{"header":"http://39.97.183.122/group1/M00/00/00/rBGvAl7LcYyAZb8TAAf2zQ1Ix3Y328.gif","name":"稽哥66","password":"","username":"admin"},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 21:24:04.422 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:25:58.421 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:25:58.422 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /upload/uploadImage(String), [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@740fe0f9](String), 1(Integer), null, POST(String), 243(Long), {"code":20000,"data":"http://39.97.183.122/group1/M00/00/00/rBGvAl7iMOaACqYhAAAOurxSY9A577.jpg","msg":"上传成功"}(String), 127.0.0.1(String)
+2020-06-11 21:25:58.487 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:26:30.300 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.MusicMapper.save.debug:159 -==>  Preparing: insert into bl_music(name, artist, url, cover, lrc) values ( ?, ?, ?, ?, ? ) 
+2020-06-11 21:26:30.302 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.MusicMapper.save.debug:159 -==> Parameters: Pig小优 - 画舫烟中浅(String), 小优(String), null, http://39.97.183.122/group1/M00/00/00/rBGvAl7iMOaACqYhAAAOurxSY9A577.jpg(String), null
+2020-06-11 21:26:30.581 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:26:30.582 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /music/save(String), [Music(id=null, name=Pig小优 - 画舫烟中浅, artist=小优, url=null, cover=http://39.97.183.122/group1/M00/00/00/rBGvAl7iMOaACqYhAAAOurxSY9A577.jpg, lrc=null, createdTime=null, enabled=null, deleted=null)](String), 0(Integer), org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'url' cannot be null
+### The error may involve com.jg.blog.mapper.MusicMapper.save-Inline
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'url' cannot be null
+; Column 'url' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'url' cannot be null
+	at com.jg.blog.service.impl.MusicServiceImpl.save(MusicServiceImpl.java:23)
+	at com.jg.blog.controller.MusicController.save(MusicController.java:32)
+	at com.jg.blog.controller.MusicController$$FastClassBySpringCGLIB$$7a5ff1d7.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.MusicController$$EnhancerBySpringCGLIB$$63ec8dd0.save(<generated>)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'url' cannot be null
+(String), POST(String), 0(Long), {"code":20000,"data":[{"blogCollection":19,"blogComment":0,"blogGoods":1,"blogId":"1264358511910559744","blogRead":29,"blogTitle":"Java只使用位运算实现加减乘除","createdTime":"2020-05-24 00:52:15","typeName":"linux"},{"blogCollection":12,"blogComment":4,"blogGoods":3,"blogId":"1264365258452664320","blogRead":12,"blogTitle":"不使用比较运算符如何比较两个数的大小","createdTime":"2020-05-24 01:19:04","typeName":"java"},{"blogCollection":1,"blogComment":2,"blogGoods":2,"blogId":"1264726600279891968","blogRead":13,"blogTitle":"新生代与老年代","createdTime":"2020-05-25 01:14:56","typeName":"java"},{"blogCollection":0,"blogComment":5,"blogGoods":1,"blogId":"1264365631460507648","blogRead":11,"blogTitle":"Flutter、ReactNative、uniapp对比","createdTime":"2020-04-24 01:20:33","typeName":"linux"},{"blogCollection":0,"blogComment":5,"blogGoods":1,"blogId":"1264358089300877312","blogRead":4,"blogTitle":"Mybatis源码阅读（五 ）：接口层——SqlSession","createdTime":"2020-02-24 00:50:35","typeName":"java"}],"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 21:26:30.645 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:26:42.007 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:26:42.009 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /upload/uploadImage(String), [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@465b10b9](String), 1(Integer), null, POST(String), 20724(Long), {"code":20000,"data":"http://39.97.183.122/group1/M00/00/00/rBGvAl7iMRKAckVMAInbwpYfM3A430.mp3","msg":"上传成功"}(String), 127.0.0.1(String)
+2020-06-11 21:26:42.074 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:27:20.745 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.MusicMapper.save.debug:159 -==>  Preparing: insert into bl_music(name, artist, url, cover, lrc) values ( ?, ?, ?, ?, ? ) 
+2020-06-11 21:27:20.747 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.MusicMapper.save.debug:159 -==> Parameters: Pig小优 - 画舫烟中浅(String), 小优(String), http://39.97.183.122/group1/M00/00/00/rBGvAl7iMRKAckVMAInbwpYfM3A430.mp3(String), http://39.97.183.122/group1/M00/00/00/rBGvAl7iMOaACqYhAAAOurxSY9A577.jpg(String), null
+2020-06-11 21:27:20.817 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.MusicMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:27:20.857 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:27:20.858 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /music/save(String), [Music(id=null, name=Pig小优 - 画舫烟中浅, artist=小优, url=http://39.97.183.122/group1/M00/00/00/rBGvAl7iMRKAckVMAInbwpYfM3A430.mp3, cover=http://39.97.183.122/group1/M00/00/00/rBGvAl7iMOaACqYhAAAOurxSY9A577.jpg, lrc=null, createdTime=null, enabled=null, deleted=null)](String), 1(Integer), null, POST(String), 114(Long), {"code":20000,"msg":"添加成功"}(String), 127.0.0.1(String)
+2020-06-11 21:27:20.924 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:27:21.026 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.MusicMapper.getByPage.debug:159 -==>  Preparing: select id, name, artist, url, cover, created_time, enabled from bl_music where deleted = 0 limit ?, ? 
+2020-06-11 21:27:21.027 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.MusicMapper.getByPage.debug:159 -==> Parameters: 0(Integer), 10(Integer)
+2020-06-11 21:27:21.061 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.MusicMapper.getByPage.debug:159 -<==      Total: 1
+2020-06-11 21:27:21.112 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.MusicMapper.getCountByPage.debug:159 -==>  Preparing: select count(*) from bl_music where deleted = 0 
+2020-06-11 21:27:21.113 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.MusicMapper.getCountByPage.debug:159 -==> Parameters: 
+2020-06-11 21:27:21.149 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.MusicMapper.getCountByPage.debug:159 -<==      Total: 1
+2020-06-11 21:27:21.200 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:27:21.204 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /music/getByPage(String), [Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)](String), 1(Integer), null, POST(String), 166(Long), {"code":20000,"data":{"currentPage":1,"index":0,"list":[{"artist":"小优","cover":"http://39.97.183.122/group1/M00/00/00/rBGvAl7iMOaACqYhAAAOurxSY9A577.jpg","createdTime":"2020-06-11 13:27:21","enabled":1,"id":1,"name":"Pig小优 - 画舫烟中浅","url":"http://39.97.183.122/group1/M00/00/00/rBGvAl7iMRKAckVMAInbwpYfM3A430.mp3"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":1,"totalPage":1},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 21:27:21.271 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:29:00.255 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.MusicMapper.getById.debug:159 -==>  Preparing: select id, name, artist, url, cover, lrc from bl_music where id = ? and deleted = 0 
+2020-06-11 21:29:00.256 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.MusicMapper.getById.debug:159 -==> Parameters: 1(Integer)
+2020-06-11 21:29:00.308 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.MusicMapper.getById.debug:159 -<==      Total: 1
+2020-06-11 21:29:00.345 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:29:00.346 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /music/get/1(String), [1](String), 1(Integer), null, POST(String), 91(Long), {"code":20000,"data":{"artist":"小优","cover":"http://39.97.183.122/group1/M00/00/00/rBGvAl7iMOaACqYhAAAOurxSY9A577.jpg","id":1,"name":"Pig小优 - 画舫烟中浅","url":"http://39.97.183.122/group1/M00/00/00/rBGvAl7iMRKAckVMAInbwpYfM3A430.mp3"},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 21:29:00.411 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:29:12.205 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.MusicMapper.getById.debug:159 -==>  Preparing: select id, name, artist, url, cover, lrc from bl_music where id = ? and deleted = 0 
+2020-06-11 21:29:12.206 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.MusicMapper.getById.debug:159 -==> Parameters: 1(Integer)
+2020-06-11 21:29:12.239 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.MusicMapper.getById.debug:159 -<==      Total: 1
+2020-06-11 21:29:12.278 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:29:12.279 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /music/get/1(String), [1](String), 1(Integer), java.lang.ClassCastException: com.jg.blog.pojo.Admin cannot be cast to com.jg.blog.pojo.User
+	at com.jg.blog.service.impl.UserServiceImpl.getCommentAndCollectionCount(UserServiceImpl.java:123)
+	at com.jg.blog.controller.UserController.commentAndCollectionCount(UserController.java:159)
+	at com.jg.blog.controller.UserController$$FastClassBySpringCGLIB$$67991cd1.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.UserController$$EnhancerBySpringCGLIB$$6185bafe.commentAndCollectionCount(<generated>)
+(String), POST(String), 72(Long), {"code":20000,"data":{"artist":"小优","cover":"http://39.97.183.122/group1/M00/00/00/rBGvAl7iMOaACqYhAAAOurxSY9A577.jpg","id":1,"name":"Pig小优 - 画舫烟中浅","url":"http://39.97.183.122/group1/M00/00/00/rBGvAl7iMRKAckVMAInbwpYfM3A430.mp3"},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 21:29:12.345 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:29:19.556 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.MusicMapper.getById.debug:159 -==>  Preparing: select id, name, artist, url, cover, lrc from bl_music where id = ? and deleted = 0 
+2020-06-11 21:29:19.557 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.MusicMapper.getById.debug:159 -==> Parameters: 1(Integer)
+2020-06-11 21:29:19.590 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.MusicMapper.getById.debug:159 -<==      Total: 1
+2020-06-11 21:29:19.626 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:29:19.627 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /music/get/1(String), [1](String), 1(Integer), com.github.tobato.fastdfs.exception.FdfsConnectException: 无法获取服务端连接资源：can't create connection to/39.97.183.122:22122
+	at com.jg.blog.utils.UploadService.uploadImage(UploadService.java:44)
+	at com.jg.blog.controller.UploadController.uploadImage(UploadController.java:30)
+	at com.jg.blog.controller.UploadController$$FastClassBySpringCGLIB$$4070d907.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.UploadController$$EnhancerBySpringCGLIB$$5914160.uploadImage(<generated>)
+Caused by: java.net.SocketTimeoutException: connect timed out
+(String), POST(String), 73(Long), {"code":20000,"data":{"artist":"小优","cover":"http://39.97.183.122/group1/M00/00/00/rBGvAl7iMOaACqYhAAAOurxSY9A577.jpg","id":1,"name":"Pig小优 - 画舫烟中浅","url":"http://39.97.183.122/group1/M00/00/00/rBGvAl7iMRKAckVMAInbwpYfM3A430.mp3"},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 21:29:19.692 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:29:23.734 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.MusicMapper.update.debug:159 -==>  Preparing: update bl_music SET name = ?, artist = ?, url = ?, cover = ?, lrc = ? where id = ? 
+2020-06-11 21:29:23.736 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.MusicMapper.update.debug:159 -==> Parameters: Pig小优 - 画舫烟中浅(String), 小优(String), http://39.97.183.122/group1/M00/00/00/rBGvAl7iMRKAckVMAInbwpYfM3A430.mp3(String), http://39.97.183.122/group1/M00/00/00/rBGvAl7iMOaACqYhAAAOurxSY9A577.jpg(String), [00:00.32]Pig小优 - 画舫烟中浅
+[00:01.62]作词：Ming.明
+[00:02.33]作曲：Pig小优
+[00:03.08]编曲：Pig小优
+[00:03.84]后期：Pig小优
+[00:04.54]美工：张小喵
+[00:09.15]踏红船繁华似人间
+[00:12.03]灯火熙攘祈愿
+[00:14.00]手中红线姻缘何时现
+[00:17.57]薄雾小雨润如烟
+[00:19.94]灯中画舫烟中浅
+[00:24.93]这尘缘如惊鸿一面
+[00:27.85]谁家翩翩少年
+[00:29.85]桥边白衣如纤印心间
+[00:33.34]这世间情话誓言
+[00:35.81]不抵这柔情一眼
+[00:40.79]步儿缓红绳缠
+[00:42.70]石桥边灯火染
+[00:44.72]杯中仙促长谈
+[00:46.79]舷外雨声人言难断
+[00:49.71]已成烟已消散
+[00:51.62]化作春意满
+[00:55.75]晚来风寒心却暖
+[00:57.57]三两杯酒后情又添
+[01:00.08]暮鼓丝弦声声慢
+[01:02.36]有佳人舞芊芊
+[01:04.32]研磨提笔在画卷眉目间流转
+[01:08.49]细雨婵娟
+[01:12.25]醉卧画舫听雨眠一场梦无言
+[01:15.93]窗外依旧喧怎转眼桥上人不见
+[01:20.46]回眸深处看细雨茫茫如烟
+[01:24.10]苦了思念
+[01:44.22]步儿缓红绳缠
+[01:46.18]石桥边灯火染
+[01:48.20]杯中仙促长谈
+[01:50.21]舷外雨声人言难断
+[01:53.18]已成烟已消散
+[01:55.15]化作春意满
+[01:59.25]晚来风寒心却暖
+[02:01.16]三两杯酒后情又添
+[02:03.53]暮鼓丝弦声声慢
+[02:05.74]有佳人舞芊芊
+[02:07.80]研磨提笔在画卷眉目间流转
+[02:12.03]细雨婵娟
+[02:15.69]醉卧画舫听雨眠一场梦无言
+[02:19.42]窗外依旧喧怎转眼桥上人不见
+[02:23.95]回眸深处看细雨茫茫如烟
+[02:27.58]苦了思念
+[02:43.49]青山乌蓬伴流年繁华多阑珊
+[02:47.26]刹那嫣然笑款款镌刻在画中仙
+[02:51.46]满纸柔情过指尖笔墨笑意染
+[02:55.64]长袖翩翩
+[02:59.52]醉卧画舫听雨眠一场梦无言
+[03:03.10]窗外依旧喧怎转眼桥上人不见
+[03:07.48]回眸深处看水中喜字红残
+[03:11.31]倒了人间
+画舫烟中浅相关歌词推荐(String), 1(Integer)
+2020-06-11 21:29:23.866 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.MusicMapper.update.debug:159 -<==    Updates: 1
+2020-06-11 21:29:23.900 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:29:23.901 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /music/update(String), [Music(id=1, name=Pig小优 - 画舫烟中浅, artist=小优, url=http://39.97.183.122/group1/M00/00/00/rBGvAl7iMRKAckVMAInbwpYfM3A430.mp3, cover=http://39.97.183.122/group1/M00/00/00/rBGvAl7iMOaACqYhAAAOurxSY9A577.jpg, lrc=[00:00.32]Pig小优 - 画舫烟中浅
+[00:01.62]作词：Ming.明
+[00:02.33]作曲：Pig小优
+[00:03.08]编曲：Pig小优
+[00:03.84]后期：Pig小优
+[00:04.54]美工：张小喵
+[00:09.15]踏红船繁华似人间
+[00:12.03]灯火熙攘祈愿
+[00:14.00]手中红线姻缘何时现
+[00:17.57]薄雾小雨润如烟
+[00:19.94]灯中画舫烟中浅
+[00:24.93]这尘缘如惊鸿一面
+[00:27.85]谁家翩翩少年
+[00:29.85]桥边白衣如纤印心间
+[00:33.34]这世间情话誓言
+[00:35.81]不抵这柔情一眼
+[00:40.79]步儿缓红绳缠
+[00:42.70]石桥边灯火染
+[00:44.72]杯中仙促长谈
+[00:46.79]舷外雨声人言难断
+[00:49.71]已成烟已消散
+[00:51.62]化作春意满
+[00:55.75]晚来风寒心却暖
+[00:57.57]三两杯酒后情又添
+[01:00.08]暮鼓丝弦声声慢
+[01:02.36]有佳人舞芊芊
+[01:04.32]研磨提笔在画卷眉目间流转
+[01:08.49]细雨婵娟
+[01:12.25]醉卧画舫听雨眠一场梦无言
+[01:15.93]窗外依旧喧怎转眼桥上人不见
+[01:20.46]回眸深处看细雨茫茫如烟
+[01:24.10]苦了思念
+[01:44.22]步儿缓红绳缠
+[01:46.18]石桥边灯火染
+[01:48.20]杯中仙促长谈
+[01:50.21]舷外雨声人言难断
+[01:53.18]已成烟已消散
+[01:55.15]化作春意满
+[01:59.25]晚来风寒心却暖
+[02:01.16]三两杯酒后情又添
+[02:03.53]暮鼓丝弦声声慢
+[02:05.74]有佳人舞芊芊
+[02:07.80]研磨提笔在画卷眉目间流转
+[02:12.03]细雨婵娟
+[02:15.69]醉卧画舫听雨眠一场梦无言
+[02:19.42]窗外依旧喧怎转眼桥上人不见
+[02:23.95]回眸深处看细雨茫茫如烟
+[02:27.58]苦了思念
+[02:43.49]青山乌蓬伴流年繁华多阑珊
+[02:47.26]刹那嫣然笑款款镌刻在画中仙
+[02:51.46]满纸柔情过指尖笔墨笑意染
+[02:55.64]长袖翩翩
+[02:59.52]醉卧画舫听雨眠一场梦无言
+[03:03.10]窗外依旧喧怎转眼桥上人不见
+[03:07.48]回眸深处看水中喜字红残
+[03:11.31]倒了人间
+画舫烟中浅相关歌词推荐, createdTime=null, enabled=null, deleted=null)](String), 1(Integer), java.lang.RuntimeException: Unable to borrow buffer from pool
+	at com.jg.blog.utils.UploadService.uploadImage(UploadService.java:44)
+	at com.jg.blog.controller.UploadController.uploadImage(UploadController.java:30)
+	at com.jg.blog.controller.UploadController$$FastClassBySpringCGLIB$$4070d907.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.UploadController$$EnhancerBySpringCGLIB$$5914160.uploadImage(<generated>)
+Caused by: com.github.tobato.fastdfs.exception.FdfsUnavailableException: 无法获取服务端连接资源：找不到可用的tracker /39.97.183.122:22122,
+(String), PUT(String), 270(Long), {"code":20000,"msg":"更新成功"}(String), 127.0.0.1(String)
+2020-06-11 21:29:23.966 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:29:24.038 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.MusicMapper.getByPage.debug:159 -==>  Preparing: select id, name, artist, url, cover, created_time, enabled from bl_music where deleted = 0 limit ?, ? 
+2020-06-11 21:29:24.039 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.MusicMapper.getByPage.debug:159 -==> Parameters: 0(Integer), 10(Integer)
+2020-06-11 21:29:24.071 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.MusicMapper.getByPage.debug:159 -<==      Total: 1
+2020-06-11 21:29:24.107 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.MusicMapper.getCountByPage.debug:159 -==>  Preparing: select count(*) from bl_music where deleted = 0 
+2020-06-11 21:29:24.108 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.MusicMapper.getCountByPage.debug:159 -==> Parameters: 
+2020-06-11 21:29:24.149 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.MusicMapper.getCountByPage.debug:159 -<==      Total: 1
+2020-06-11 21:29:24.185 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:29:24.186 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /music/getByPage(String), [Page(currentPage=1, pageSize=10, totalPage=1, totalCount=1, list=[Music(id=1, name=Pig小优 - 画舫烟中浅, artist=小优, url=http://39.97.183.122/group1/M00/00/00/rBGvAl7iMRKAckVMAInbwpYfM3A430.mp3, cover=http://39.97.183.122/group1/M00/00/00/rBGvAl7iMOaACqYhAAAOurxSY9A577.jpg, lrc=null, createdTime=2020-06-11 13:27:21, enabled=1, deleted=null)], params={}, sortColumn=null, sortMethod=asc)](String), 1(Integer), java.lang.RuntimeException: Unable to borrow buffer from pool
+	at com.jg.blog.utils.UploadService.uploadImage(UploadService.java:44)
+	at com.jg.blog.controller.UploadController.uploadImage(UploadController.java:30)
+	at com.jg.blog.controller.UploadController$$FastClassBySpringCGLIB$$4070d907.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.UploadController$$EnhancerBySpringCGLIB$$5914160.uploadImage(<generated>)
+Caused by: com.github.tobato.fastdfs.exception.FdfsUnavailableException: 无法获取服务端连接资源：找不到可用的tracker /39.97.183.122:22122,
+(String), POST(String), 152(Long), {"code":20000,"data":{"currentPage":1,"index":0,"list":[{"artist":"小优","cover":"http://39.97.183.122/group1/M00/00/00/rBGvAl7iMOaACqYhAAAOurxSY9A577.jpg","createdTime":"2020-06-11 13:27:21","enabled":1,"id":1,"name":"Pig小优 - 画舫烟中浅","url":"http://39.97.183.122/group1/M00/00/00/rBGvAl7iMRKAckVMAInbwpYfM3A430.mp3"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":1,"totalPage":1},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 21:29:24.250 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:29:38.881 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.AdminMapper.getAdmin.debug:159 -==>  Preparing: select id, name, header, signature, comment, username from bl_admin limit 1 
+2020-06-11 21:29:38.882 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.AdminMapper.getAdmin.debug:159 -==> Parameters: 
+2020-06-11 21:29:38.884 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.BlogMapper.recomRead.debug:159 -==>  Preparing: select blog_id, blog_title, blog_goods, blog_read, blog_collection, blog_comment, created_time,type_name from bl_blog as b inner join bl_type as t on type_id = blog_type where t.deleted = 0 and b.deleted = 0 order by (blog_read + blog_goods) desc LIMIT 5 
+2020-06-11 21:29:38.885 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.BlogMapper.recomRead.debug:159 -==> Parameters: 
+2020-06-11 21:29:38.912 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.BlogMapper.getByPage.debug:159 -==>  Preparing: select blog_id, blog_title, blog_image,blog_goods, blog_read, blog_collection, blog_remark, blog_comment, blog_source, created_time, update_time,type_name from bl_blog as b inner join bl_type as t on type_id = blog_type where t.deleted = 0 and b.deleted = 0 order by created_time desc limit ?, ? 
+2020-06-11 21:29:38.912 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.AdminMapper.getAdmin.debug:159 -<==      Total: 1
+2020-06-11 21:29:38.913 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.BlogMapper.getByPage.debug:159 -==> Parameters: 0(Integer), 10(Integer)
+2020-06-11 21:29:38.919 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.BlogMapper.recomRead.debug:159 -<==      Total: 5
+2020-06-11 21:29:38.949 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:29:38.951 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.BlogMapper.getByPage.debug:159 -<==      Total: 8
+2020-06-11 21:29:38.951 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/getAdmin(String), [](String), 1(Integer), null, GET(String), 85(Long), {"code":20000,"data":{"header":"http://39.97.183.122/group1/M00/00/00/rBGvAl7LcYyAZb8TAAf2zQ1Ix3Y328.gif","id":1,"name":"稽哥66","username":"admin"},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 21:29:38.952 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.BlogMapper.getCountByPage.debug:159 -==>  Preparing: select count(*) from bl_blog as b inner join bl_type as t on type_id = blog_type where t.deleted = 0 and b.deleted = 0 
+2020-06-11 21:29:38.953 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.BlogMapper.getCountByPage.debug:159 -==> Parameters: 
+2020-06-11 21:29:38.957 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:29:38.959 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /blog/recomRead(String), [](String), 1(Integer), org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'url' cannot be null
+### The error may involve com.jg.blog.mapper.MusicMapper.save-Inline
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'url' cannot be null
+; Column 'url' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'url' cannot be null
+	at com.jg.blog.service.impl.MusicServiceImpl.save(MusicServiceImpl.java:23)
+	at com.jg.blog.controller.MusicController.save(MusicController.java:32)
+	at com.jg.blog.controller.MusicController$$FastClassBySpringCGLIB$$7a5ff1d7.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.MusicController$$EnhancerBySpringCGLIB$$63ec8dd0.save(<generated>)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'url' cannot be null
+(String), POST(String), 96(Long), {"code":20000,"data":[{"blogCollection":19,"blogComment":0,"blogGoods":1,"blogId":"1264358511910559744","blogRead":29,"blogTitle":"Java只使用位运算实现加减乘除","createdTime":"2020-05-24 00:52:15","typeName":"linux"},{"blogCollection":12,"blogComment":4,"blogGoods":3,"blogId":"1264365258452664320","blogRead":12,"blogTitle":"不使用比较运算符如何比较两个数的大小","createdTime":"2020-05-24 01:19:04","typeName":"java"},{"blogCollection":1,"blogComment":2,"blogGoods":2,"blogId":"1264726600279891968","blogRead":13,"blogTitle":"新生代与老年代","createdTime":"2020-05-25 01:14:56","typeName":"java"},{"blogCollection":0,"blogComment":5,"blogGoods":1,"blogId":"1264365631460507648","blogRead":11,"blogTitle":"Flutter、ReactNative、uniapp对比","createdTime":"2020-04-24 01:20:33","typeName":"linux"},{"blogCollection":0,"blogComment":5,"blogGoods":1,"blogId":"1264358089300877312","blogRead":4,"blogTitle":"Mybatis源码阅读（五 ）：接口层——SqlSession","createdTime":"2020-02-24 00:50:35","typeName":"java"}],"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 21:29:38.985 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.BlogMapper.getCountByPage.debug:159 -<==      Total: 1
+2020-06-11 21:29:39.011 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:29:39.023 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:29:39.089 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:29:39.091 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /blog/getByPage(String), [Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=created_time, sortMethod=desc)](String), 1(Integer), null, POST(String), 223(Long), {"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blogCollection":1,"blogComment":2,"blogGoods":2,"blogId":"1264726600279891968","blogImage":"http://39.97.183.122/group1/M00/00/00/rBGvAl7LHAuAP_m_AAAzoN3Frv0553.jpg","blogRead":13,"blogTitle":"新生代与老年代","createdTime":"2020-05-25 01:14:56","typeName":"java","updateTime":"2020-06-10 11:31:50"},{"blogCollection":12,"blogComment":4,"blogGoods":3,"blogId":"1264365258452664320","blogRead":12,"blogTitle":"不使用比较运算符如何比较两个数的大小","createdTime":"2020-05-24 01:19:04","typeName":"java","updateTime":"2020-06-10 03:13:53"},{"blogCollection":19,"blogComment":0,"blogGoods":1,"blogId":"1264358511910559744","blogRead":29,"blogTitle":"Java只使用位运算实现加减乘除","createdTime":"2020-05-24 00:52:15","typeName":"linux","updateTime":"2020-06-10 06:48:39"},{"blogCollection":0,"blogComment":5,"blogGoods":1,"blogId":"1264365631460507648","blogRead":11,"blogTitle":"Flutter、ReactNative、uniapp对比","createdTime":"2020-04-24 01:20:33","typeName":"linux","updateTime":"2020-06-10 03:13:06"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1264363719424188416","blogRead":2,"blogTitle":"java进阶篇：用位运算实现加、减、乘、除","createdTime":"2020-04-24 01:12:57","typeName":"java","updateTime":"2020-06-09 13:21:36"},{"blogCollection":0,"blogComment":5,"blogGoods":1,"blogId":"1264358089300877312","blogRead":4,"blogTitle":"Mybatis源码阅读（五 ）：接口层——SqlSession","createdTime":"2020-02-24 00:50:35","typeName":"java","updateTime":"2020-06-10 03:12:22"},{"blogCollection":0,"blogComment":1,"blogGoods":1,"blogId":"1264358056178458624","blogImage":"http://39.97.183.122/group1/M00/00/00/rBGvAl7KbwqAAb-IAAAILq5d_SI847.png","blogRead":3,"blogTitle":"Mybatis源码阅读（五 ）：接口层——SqlSession","createdTime":"2020-02-24 00:50:27","typeName":"linux","updateTime":"2020-06-10 03:10:30"},{"blogCollection":0,"blogComment":1,"blogGoods":0,"blogId":"1264357690636476416","blogImage":"http://39.97.183.122/group1/M00/00/00/rBGvAl7KbfWAMxLPAABgjnKno8E447.jpg","blogRead":2,"blogTitle":"垃圾回收算法","createdTime":"2020-02-24 00:49:00","typeName":"java","updateTime":"2020-06-10 03:10:48"}],"pageSize":10,"params":{},"sortColumn":"created_time","sortMethod":"desc","totalCount":8,"totalPage":1},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 21:29:39.163 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:29:39.181 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LinkMapper.getAll.debug:159 -==>  Preparing: select link_id, link_name, link_url, created_time, update_time from bl_link where deleted = 0 
+2020-06-11 21:29:39.182 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LinkMapper.getAll.debug:159 -==> Parameters: 
+2020-06-11 21:29:39.183 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.MusicMapper.getList.debug:159 -==>  Preparing: select id, name, artist, url, cover, lrc from bl_music where deleted = 0 and enabled = 1 
+2020-06-11 21:29:39.184 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.MusicMapper.getList.debug:159 -==> Parameters: 
+2020-06-11 21:29:39.213 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LinkMapper.getAll.debug:159 -<==      Total: 0
+2020-06-11 21:29:39.216 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.MusicMapper.getList.debug:159 -<==      Total: 1
+2020-06-11 21:29:39.249 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:29:39.250 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /link/list(String), [](String), 1(Integer), null, GET(String), 76(Long), {"code":20000,"data":[],"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 21:29:39.255 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-11 21:29:39.256 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /music/getList(String), [](String), 1(Integer), null, GET(String), 84(Long), {"code":20000,"data":[{"artist":"小优","cover":"http://39.97.183.122/group1/M00/00/00/rBGvAl7iMOaACqYhAAAOurxSY9A577.jpg","id":1,"lrc":"[00:00.32]Pig小优 - 画舫烟中浅\n[00:01.62]作词：Ming.明\n[00:02.33]作曲：Pig小优\n[00:03.08]编曲：Pig小优\n[00:03.84]后期：Pig小优\n[00:04.54]美工：张小喵\n[00:09.15]踏红船繁华似人间\n[00:12.03]灯火熙攘祈愿\n[00:14.00]手中红线姻缘何时现\n[00:17.57]薄雾小雨润如烟\n[00:19.94]灯中画舫烟中浅\n[00:24.93]这尘缘如惊鸿一面\n[00:27.85]谁家翩翩少年\n[00:29.85]桥边白衣如纤印心间\n[00:33.34]这世间情话誓言\n[00:35.81]不抵这柔情一眼\n[00:40.79]步儿缓红绳缠\n[00:42.70]石桥边灯火染\n[00:44.72]杯中仙促长谈\n[00:46.79]舷外雨声人言难断\n[00:49.71]已成烟已消散\n[00:51.62]化作春意满\n[00:55.75]晚来风寒心却暖\n[00:57.57]三两杯酒后情又添\n[01:00.08]暮鼓丝弦声声慢\n[01:02.36]有佳人舞芊芊\n[01:04.32]研磨提笔在画卷眉目间流转\n[01:08.49]细雨婵娟\n[01:12.25]醉卧画舫听雨眠一场梦无言\n[01:15.93]窗外依旧喧怎转眼桥上人不见\n[01:20.46]回眸深处看细雨茫茫如烟\n[01:24.10]苦了思念\n[01:44.22]步儿缓红绳缠\n[01:46.18]石桥边灯火染\n[01:48.20]杯中仙促长谈\n[01:50.21]舷外雨声人言难断\n[01:53.18]已成烟已消散\n[01:55.15]化作春意满\n[01:59.25]晚来风寒心却暖\n[02:01.16]三两杯酒后情又添\n[02:03.53]暮鼓丝弦声声慢\n[02:05.74]有佳人舞芊芊\n[02:07.80]研磨提笔在画卷眉目间流转\n[02:12.03]细雨婵娟\n[02:15.69]醉卧画舫听雨眠一场梦无言\n[02:19.42]窗外依旧喧怎转眼桥上人不见\n[02:23.95]回眸深处看细雨茫茫如烟\n[02:27.58]苦了思念\n[02:43.49]青山乌蓬伴流年繁华多阑珊\n[02:47.26]刹那嫣然笑款款镌刻在画中仙\n[02:51.46]满纸柔情过指尖笔墨笑意染\n[02:55.64]长袖翩翩\n[02:59.52]醉卧画舫听雨眠一场梦无言\n[03:03.10]窗外依旧喧怎转眼桥上人不见\n[03:07.48]回眸深处看水中喜字红残\n[03:11.31]倒了人间\n画舫烟中浅相关歌词推荐","name":"Pig小优 - 画舫烟中浅","url":"http://39.97.183.122/group1/M00/00/00/rBGvAl7iMRKAckVMAInbwpYfM3A430.mp3"}],"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-06-11 21:29:39.312 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-06-11 21:29:39.320 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1

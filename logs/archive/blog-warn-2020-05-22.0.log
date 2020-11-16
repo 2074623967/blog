@@ -1,0 +1,44 @@
+2020-05-22 09:19:54.230 WARN  [main]o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh:558 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 1001 is already in use
+2020-05-22 09:40:27.690 WARN  [main]o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh:558 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 1001 is already in use
+2020-05-22 15:50:02.321 WARN  [main]o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh:558 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 1001 is already in use
+2020-05-22 15:59:16.744 WARN  [http-nio-1001-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 15:59:18.497 WARN  [http-nio-1001-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 15:59:19.591 WARN  [http-nio-1001-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 15:59:20.733 WARN  [http-nio-1001-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 15:59:21.667 WARN  [http-nio-1001-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 15:59:24.733 WARN  [http-nio-1001-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 15:59:25.742 WARN  [http-nio-1001-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 15:59:29.744 WARN  [http-nio-1001-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 15:59:33.853 WARN  [http-nio-1001-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 15:59:36.750 WARN  [http-nio-1001-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 15:59:47.750 WARN  [http-nio-1001-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 15:59:49.937 WARN  [http-nio-1001-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 16:00:06.748 WARN  [http-nio-1001-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 16:00:22.045 WARN  [http-nio-1001-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 16:00:41.744 WARN  [http-nio-1001-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 16:01:26.122 WARN  [http-nio-1001-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 16:01:48.747 WARN  [http-nio-1001-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 16:03:34.167 WARN  [http-nio-1001-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 16:03:59.771 WARN  [http-nio-1001-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 16:07:50.273 WARN  [http-nio-1001-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 16:16:24.739 WARN  [http-nio-1001-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 16:33:31.735 WARN  [http-nio-1001-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 16:58:05.736 WARN  [http-nio-1001-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 16:58:09.733 WARN  [http-nio-1001-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 16:58:14.752 WARN  [http-nio-1001-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 16:58:21.738 WARN  [http-nio-1001-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 16:58:32.736 WARN  [http-nio-1001-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 16:58:34.736 WARN  [http-nio-1001-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 16:58:38.738 WARN  [http-nio-1001-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 16:58:43.737 WARN  [http-nio-1001-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 16:58:50.740 WARN  [http-nio-1001-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 16:59:01.739 WARN  [http-nio-1001-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 16:59:20.745 WARN  [http-nio-1001-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 16:59:55.733 WARN  [http-nio-1001-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 17:01:02.736 WARN  [http-nio-1001-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 17:02:30.746 WARN  [http-nio-1001-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 17:02:34.755 WARN  [http-nio-1001-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 17:02:39.734 WARN  [http-nio-1001-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 17:02:46.732 WARN  [http-nio-1001-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /sockjs-node/info
+2020-05-22 21:30:17.113 WARN  [http-nio-1001-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /login.jsp
+2020-05-22 21:30:38.857 WARN  [http-nio-1001-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /null

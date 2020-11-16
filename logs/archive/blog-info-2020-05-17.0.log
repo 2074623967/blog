@@ -1,0 +1,914 @@
+2020-05-17 19:45:11.044 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-LD5PAQI with PID 7064 (E:\Idea代码\blog\target\classes started by adminstrator in E:\Idea代码\blog)
+2020-05-17 19:45:11.051 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-17 19:45:12.546 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-17 19:45:12.591 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 36ms. Found 0 MongoDB repository interfaces.
+2020-05-17 19:45:14.594 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-17 19:46:44.261 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-LD5PAQI with PID 4752 (E:\Idea代码\blog\target\classes started by adminstrator in E:\Idea代码\blog)
+2020-05-17 19:46:44.297 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-17 19:46:46.117 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-17 19:46:46.155 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 31ms. Found 0 MongoDB repository interfaces.
+2020-05-17 19:46:46.752 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-17 19:48:19.022 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-LD5PAQI with PID 11476 (E:\Idea代码\blog\target\classes started by adminstrator in E:\Idea代码\blog)
+2020-05-17 19:48:19.043 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-17 19:48:20.950 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-17 19:48:20.987 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 29ms. Found 0 MongoDB repository interfaces.
+2020-05-17 19:48:21.489 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-17 19:52:01.856 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-LD5PAQI with PID 23792 (E:\Idea代码\blog\target\classes started by adminstrator in E:\Idea代码\blog)
+2020-05-17 19:52:01.862 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-17 19:52:03.746 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-17 19:52:03.787 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 34ms. Found 0 MongoDB repository interfaces.
+2020-05-17 19:52:04.349 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-17 19:53:21.581 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-LD5PAQI with PID 5812 (E:\Idea代码\blog\target\classes started by adminstrator in E:\Idea代码\blog)
+2020-05-17 19:53:21.590 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-17 19:53:23.496 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-17 19:53:23.538 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 32ms. Found 0 MongoDB repository interfaces.
+2020-05-17 19:53:24.022 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-17 19:54:36.959 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-LD5PAQI with PID 1868 (E:\Idea代码\blog\target\classes started by adminstrator in E:\Idea代码\blog)
+2020-05-17 19:54:36.969 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-17 19:54:40.110 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-17 19:54:40.163 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 42ms. Found 0 MongoDB repository interfaces.
+2020-05-17 19:54:41.444 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-17 19:56:54.547 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-LD5PAQI with PID 4056 (E:\Idea代码\blog\target\classes started by adminstrator in E:\Idea代码\blog)
+2020-05-17 19:56:54.555 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-17 19:56:56.051 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-17 19:56:56.093 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 34ms. Found 0 MongoDB repository interfaces.
+2020-05-17 19:56:57.202 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 1000 (http)
+2020-05-17 19:56:57.219 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-05-17 19:56:57.220 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-05-17 19:56:57.221 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-17 19:56:57.481 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-05-17 19:56:57.486 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2843 ms
+2020-05-17 19:56:58.313 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-05-17 19:57:03.602 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-05-17 19:57:03.854 INFO  [main]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed
+2020-05-17 19:57:03.860 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-05-17 19:57:03.873 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-17 20:17:25.136 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-LD5PAQI with PID 16720 (E:\Idea代码\blog\target\classes started by adminstrator in E:\Idea代码\blog)
+2020-05-17 20:17:25.146 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-17 20:17:27.355 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-17 20:17:27.393 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 30ms. Found 0 MongoDB repository interfaces.
+2020-05-17 20:17:28.348 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 1000 (http)
+2020-05-17 20:17:28.358 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-05-17 20:17:28.360 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-05-17 20:17:28.360 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-17 20:17:28.526 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-05-17 20:17:28.527 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 3173 ms
+2020-05-17 20:17:29.434 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-05-17 20:17:33.945 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-05-17 20:17:34.128 INFO  [main]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed
+2020-05-17 20:17:34.133 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-05-17 20:17:34.150 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-17 20:17:55.082 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-LD5PAQI with PID 15720 (E:\Idea代码\blog\target\classes started by adminstrator in E:\Idea代码\blog)
+2020-05-17 20:17:55.097 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-17 20:17:56.766 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-17 20:17:56.811 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 38ms. Found 0 MongoDB repository interfaces.
+2020-05-17 20:17:57.727 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 1000 (http)
+2020-05-17 20:17:57.739 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-05-17 20:17:57.740 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-05-17 20:17:57.741 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-17 20:17:57.897 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-05-17 20:17:57.897 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2651 ms
+2020-05-17 20:17:58.741 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-05-17 20:18:03.845 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-05-17 20:18:04.006 INFO  [main]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed
+2020-05-17 20:18:04.011 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-05-17 20:18:04.025 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-17 20:30:22.679 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-LD5PAQI with PID 17052 (E:\Idea代码\blog\target\classes started by adminstrator in E:\Idea代码\blog)
+2020-05-17 20:30:22.687 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-17 20:30:25.123 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-17 20:30:25.176 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 43ms. Found 0 MongoDB repository interfaces.
+2020-05-17 20:30:26.417 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 1000 (http)
+2020-05-17 20:30:26.433 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-05-17 20:30:26.436 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-05-17 20:30:26.437 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-17 20:30:26.663 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-05-17 20:30:26.664 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 3800 ms
+2020-05-17 20:30:27.747 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-05-17 20:30:32.624 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-05-17 20:30:32.848 INFO  [main]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed
+2020-05-17 20:30:32.857 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-05-17 20:30:32.879 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-17 20:32:33.867 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-LD5PAQI with PID 8792 (E:\Idea代码\blog\target\classes started by adminstrator in E:\Idea代码\blog)
+2020-05-17 20:32:33.873 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-17 20:32:35.624 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-17 20:32:35.679 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 45ms. Found 0 MongoDB repository interfaces.
+2020-05-17 20:32:36.987 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 1000 (http)
+2020-05-17 20:32:37.022 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-05-17 20:32:37.026 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-05-17 20:32:37.029 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-17 20:32:37.290 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-05-17 20:32:37.294 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 3329 ms
+2020-05-17 20:32:38.456 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-05-17 20:32:43.105 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-05-17 20:32:44.383 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-17 20:32:44.728 INFO  [main]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-05-17 20:32:45.754 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-05-17 20:32:45.784 INFO  [cluster-ClusterId{value='5ec12eec2865ba22367e1098', description='null'}-localhost:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-05-17 20:32:45.799 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-05-17 20:32:45.815 INFO  [main]com.jg.blog.BlogApplication.logStarted:61 -Started BlogApplication in 13.437 seconds (JVM running for 15.675)
+2020-05-17 20:33:41.150 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-LD5PAQI with PID 27476 (E:\Idea代码\blog\target\classes started by adminstrator in E:\Idea代码\blog)
+2020-05-17 20:33:41.227 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-17 20:33:43.714 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-17 20:33:43.757 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 33ms. Found 0 MongoDB repository interfaces.
+2020-05-17 20:33:44.859 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 1000 (http)
+2020-05-17 20:33:44.869 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-05-17 20:33:44.871 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-05-17 20:33:44.872 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-17 20:33:45.112 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-05-17 20:33:45.113 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 3775 ms
+2020-05-17 20:33:46.171 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-05-17 20:33:50.964 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-05-17 20:33:51.924 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-17 20:33:52.372 INFO  [main]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-05-17 20:33:53.425 INFO  [cluster-ClusterId{value='5ec12f302adbe730b7931144', description='null'}-localhost:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-05-17 20:33:53.661 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-05-17 20:33:53.729 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-05-17 20:33:53.757 INFO  [main]com.jg.blog.BlogApplication.logStarted:61 -Started BlogApplication in 13.933 seconds (JVM running for 16.989)
+2020-05-17 20:35:14.665 INFO  [http-nio-1000-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-17 20:35:14.666 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-05-17 20:35:14.704 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 37 ms
+2020-05-17 20:36:22.049 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:111 -请求地址 : /test/testException/1
+2020-05-17 20:36:22.050 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -请求方式 : GET
+2020-05-17 20:36:22.051 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:115 -IP : 0:0:0:0:0:0:0:1
+2020-05-17 20:36:22.054 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:117 -方法 : com.jg.blog.controller.TestController.testException
+2020-05-17 20:36:22.055 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求参数：[1]
+2020-05-17 20:36:22.066 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.doAround:65 -耗时 : 17
+2020-05-17 20:36:22.272 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.doAfterReturning:79 -返回值：{"code":20000,"encrypt":0,"msg":"操作成功！"}
+2020-05-17 20:36:30.515 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:111 -请求地址 : /test/testException/1
+2020-05-17 20:36:30.516 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -请求方式 : GET
+2020-05-17 20:36:30.516 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:115 -IP : 0:0:0:0:0:0:0:1
+2020-05-17 20:36:30.517 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:117 -方法 : com.jg.blog.controller.TestController.testException
+2020-05-17 20:36:30.518 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求参数：[1]
+2020-05-17 20:36:30.518 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.doAround:65 -耗时 : 3
+2020-05-17 20:36:30.519 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.doAfterReturning:79 -返回值：{"code":20000,"encrypt":0,"msg":"操作成功！"}
+2020-05-17 20:37:15.032 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:111 -请求地址 : /test/testException/1
+2020-05-17 20:37:15.032 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -请求方式 : GET
+2020-05-17 20:37:15.033 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:115 -IP : 0:0:0:0:0:0:0:1
+2020-05-17 20:37:15.034 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:117 -方法 : com.jg.blog.controller.TestController.testException
+2020-05-17 20:37:15.035 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求参数：[1]
+2020-05-17 20:37:15.035 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.doAround:65 -耗时 : 3
+2020-05-17 20:37:15.036 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.doAfterReturning:79 -返回值：{"code":20000,"encrypt":0,"msg":"操作成功！"}
+2020-05-17 20:37:15.482 INFO  [http-nio-1000-exec-10]com.jg.blog.aspect.RequestAspect.printRequestLog:111 -请求地址 : /test/testException/1
+2020-05-17 20:37:15.483 INFO  [http-nio-1000-exec-10]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -请求方式 : GET
+2020-05-17 20:37:15.483 INFO  [http-nio-1000-exec-10]com.jg.blog.aspect.RequestAspect.printRequestLog:115 -IP : 0:0:0:0:0:0:0:1
+2020-05-17 20:37:15.484 INFO  [http-nio-1000-exec-10]com.jg.blog.aspect.RequestAspect.printRequestLog:117 -方法 : com.jg.blog.controller.TestController.testException
+2020-05-17 20:37:15.484 INFO  [http-nio-1000-exec-10]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求参数：[1]
+2020-05-17 20:37:15.485 INFO  [http-nio-1000-exec-10]com.jg.blog.aspect.RequestAspect.doAround:65 -耗时 : 3
+2020-05-17 20:37:15.485 INFO  [http-nio-1000-exec-10]com.jg.blog.aspect.RequestAspect.doAfterReturning:79 -返回值：{"code":20000,"encrypt":0,"msg":"操作成功！"}
+2020-05-17 20:37:16.083 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:111 -请求地址 : /test/testException/1
+2020-05-17 20:37:16.084 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -请求方式 : GET
+2020-05-17 20:37:16.084 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:115 -IP : 0:0:0:0:0:0:0:1
+2020-05-17 20:37:16.085 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:117 -方法 : com.jg.blog.controller.TestController.testException
+2020-05-17 20:37:16.085 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求参数：[1]
+2020-05-17 20:37:16.088 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAround:65 -耗时 : 5
+2020-05-17 20:37:16.089 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAfterReturning:79 -返回值：{"code":20000,"encrypt":0,"msg":"操作成功！"}
+2020-05-17 20:37:16.631 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:111 -请求地址 : /test/testException/1
+2020-05-17 20:37:16.632 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -请求方式 : GET
+2020-05-17 20:37:16.632 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:115 -IP : 0:0:0:0:0:0:0:1
+2020-05-17 20:37:16.633 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:117 -方法 : com.jg.blog.controller.TestController.testException
+2020-05-17 20:37:16.633 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求参数：[1]
+2020-05-17 20:37:16.634 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.doAround:65 -耗时 : 2
+2020-05-17 20:37:16.634 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.doAfterReturning:79 -返回值：{"code":20000,"encrypt":0,"msg":"操作成功！"}
+2020-05-17 20:37:42.307 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:111 -请求地址 : /test/testException/1
+2020-05-17 20:37:42.307 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -请求方式 : GET
+2020-05-17 20:37:42.308 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:115 -IP : 0:0:0:0:0:0:0:1
+2020-05-17 20:37:42.308 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:117 -方法 : com.jg.blog.controller.TestController.testException
+2020-05-17 20:37:42.309 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求参数：[1]
+2020-05-17 20:37:42.310 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.doAround:65 -耗时 : 4
+2020-05-17 20:37:42.310 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.doAfterReturning:79 -返回值：{"code":20000,"encrypt":0,"msg":"操作成功！"}
+2020-05-17 20:42:06.214 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:111 -请求地址 : /test/testException/1
+2020-05-17 20:42:06.216 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -请求方式 : GET
+2020-05-17 20:42:06.218 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:115 -IP : 0:0:0:0:0:0:0:1
+2020-05-17 20:42:06.221 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:117 -方法 : com.jg.blog.controller.TestController.testException
+2020-05-17 20:42:06.221 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求参数：[1]
+2020-05-17 20:42:06.224 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.doAround:65 -耗时 : 10
+2020-05-17 20:42:06.225 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.doAfterReturning:79 -返回值：{"code":20000,"encrypt":0,"msg":"操作成功！"}
+2020-05-17 20:42:11.968 INFO  [http-nio-1000-exec-10]com.jg.blog.aspect.RequestAspect.printRequestLog:111 -请求地址 : /test/testException/1
+2020-05-17 20:42:11.970 INFO  [http-nio-1000-exec-10]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -请求方式 : GET
+2020-05-17 20:42:11.970 INFO  [http-nio-1000-exec-10]com.jg.blog.aspect.RequestAspect.printRequestLog:115 -IP : 0:0:0:0:0:0:0:1
+2020-05-17 20:42:11.971 INFO  [http-nio-1000-exec-10]com.jg.blog.aspect.RequestAspect.printRequestLog:117 -方法 : com.jg.blog.controller.TestController.testException
+2020-05-17 20:42:11.972 INFO  [http-nio-1000-exec-10]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求参数：[1]
+2020-05-17 20:42:11.972 INFO  [http-nio-1000-exec-10]com.jg.blog.aspect.RequestAspect.doAround:65 -耗时 : 4
+2020-05-17 20:42:11.973 INFO  [http-nio-1000-exec-10]com.jg.blog.aspect.RequestAspect.doAfterReturning:79 -返回值：{"code":20000,"encrypt":0,"msg":"操作成功！"}
+2020-05-17 20:44:37.650 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:111 -请求地址 : /test/testException/1
+2020-05-17 20:44:37.651 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -请求方式 : GET
+2020-05-17 20:44:37.652 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:115 -IP : 0:0:0:0:0:0:0:1
+2020-05-17 20:44:37.652 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:117 -方法 : com.jg.blog.controller.TestController.testException
+2020-05-17 20:44:37.653 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求参数：[1]
+2020-05-17 20:44:37.657 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.doAround:65 -耗时 : 7
+2020-05-17 20:44:37.658 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.doAfterReturning:79 -返回值：{"code":20000,"encrypt":0,"msg":"操作成功！"}
+2020-05-17 20:44:45.513 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:111 -请求地址 : /test/testException/1
+2020-05-17 20:44:45.514 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -请求方式 : GET
+2020-05-17 20:44:45.514 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:115 -IP : 0:0:0:0:0:0:0:1
+2020-05-17 20:44:45.515 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:117 -方法 : com.jg.blog.controller.TestController.testException
+2020-05-17 20:44:45.516 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求参数：[1]
+2020-05-17 20:44:45.517 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.doAround:65 -耗时 : 4
+2020-05-17 20:44:45.517 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.doAfterReturning:79 -返回值：{"code":20000,"encrypt":0,"msg":"操作成功！"}
+2020-05-17 20:46:14.753 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:111 -请求地址 : /test/testException/1
+2020-05-17 20:46:14.753 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -请求方式 : GET
+2020-05-17 20:46:14.754 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:115 -IP : 0:0:0:0:0:0:0:1
+2020-05-17 20:46:14.755 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:117 -方法 : com.jg.blog.controller.TestController.testException
+2020-05-17 20:46:14.755 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求参数：[1]
+2020-05-17 20:46:14.756 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.doAround:65 -耗时 : 3
+2020-05-17 20:46:14.756 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.doAfterReturning:79 -返回值：{"code":20000,"encrypt":0,"msg":"操作成功！"}
+2020-05-17 20:47:45.978 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:111 -请求地址 : /test/testException/1
+2020-05-17 20:47:45.979 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -请求方式 : GET
+2020-05-17 20:47:45.980 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:115 -IP : 0:0:0:0:0:0:0:1
+2020-05-17 20:47:45.980 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:117 -方法 : com.jg.blog.controller.TestController.testException
+2020-05-17 20:47:45.981 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求参数：[1]
+2020-05-17 20:47:45.982 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.doAround:65 -耗时 : 4
+2020-05-17 20:47:45.982 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.doAfterReturning:79 -返回值：{"code":20000,"encrypt":0,"msg":"操作成功！"}
+2020-05-17 20:49:04.313 INFO  [http-nio-1000-exec-9]com.jg.blog.aspect.RequestAspect.printRequestLog:111 -请求地址 : /test/testException/1
+2020-05-17 20:49:04.314 INFO  [http-nio-1000-exec-9]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -请求方式 : GET
+2020-05-17 20:49:04.315 INFO  [http-nio-1000-exec-9]com.jg.blog.aspect.RequestAspect.printRequestLog:115 -IP : 0:0:0:0:0:0:0:1
+2020-05-17 20:49:04.315 INFO  [http-nio-1000-exec-9]com.jg.blog.aspect.RequestAspect.printRequestLog:117 -方法 : com.jg.blog.controller.TestController.testException
+2020-05-17 20:49:04.316 INFO  [http-nio-1000-exec-9]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求参数：[1]
+2020-05-17 20:49:04.316 INFO  [http-nio-1000-exec-9]com.jg.blog.aspect.RequestAspect.doAround:65 -耗时 : 3
+2020-05-17 20:49:04.317 INFO  [http-nio-1000-exec-9]com.jg.blog.aspect.RequestAspect.doAfterReturning:79 -返回值：{"code":20000,"encrypt":0,"msg":"操作成功！"}
+2020-05-17 20:49:09.492 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:111 -请求地址 : /test/testException/1
+2020-05-17 20:49:09.493 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -请求方式 : GET
+2020-05-17 20:49:09.493 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:115 -IP : 0:0:0:0:0:0:0:1
+2020-05-17 20:49:09.494 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:117 -方法 : com.jg.blog.controller.TestController.testException
+2020-05-17 20:49:09.494 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求参数：[1]
+2020-05-17 20:49:09.495 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAround:65 -耗时 : 3
+2020-05-17 20:49:09.495 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAfterReturning:79 -返回值：{"code":20000,"encrypt":0,"msg":"操作成功！"}
+2020-05-17 20:51:14.928 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-LD5PAQI with PID 8796 (E:\Idea代码\blog\target\classes started by adminstrator in E:\Idea代码\blog)
+2020-05-17 20:51:14.935 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-17 20:51:18.155 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-17 20:51:18.207 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 41ms. Found 0 MongoDB repository interfaces.
+2020-05-17 20:51:19.576 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 1000 (http)
+2020-05-17 20:51:19.592 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-05-17 20:51:19.593 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-05-17 20:51:19.594 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-17 20:51:19.803 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-05-17 20:51:19.804 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 4542 ms
+2020-05-17 20:51:20.805 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-05-17 20:51:25.464 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-05-17 20:51:26.392 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-17 20:51:26.800 INFO  [main]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-05-17 20:51:27.556 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-05-17 20:51:27.586 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-05-17 20:51:27.600 INFO  [main]com.jg.blog.BlogApplication.logStarted:61 -Started BlogApplication in 14.443 seconds (JVM running for 17.466)
+2020-05-17 20:51:27.846 INFO  [cluster-ClusterId{value='5ec1334e518dbb0b455ca988', description='null'}-localhost:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-05-17 20:53:57.930 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-LD5PAQI with PID 15440 (E:\Idea代码\blog\target\classes started by adminstrator in E:\Idea代码\blog)
+2020-05-17 20:53:57.941 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-17 20:53:59.141 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-17 20:53:59.192 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 43ms. Found 0 MongoDB repository interfaces.
+2020-05-17 20:54:00.076 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 1000 (http)
+2020-05-17 20:54:00.087 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-05-17 20:54:00.089 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-05-17 20:54:00.089 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-17 20:54:00.240 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-05-17 20:54:00.241 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2216 ms
+2020-05-17 20:54:01.005 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-05-17 20:54:05.673 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-05-17 20:54:06.529 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-17 20:54:06.857 INFO  [main]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-05-17 20:54:07.626 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-05-17 20:54:07.657 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-05-17 20:54:07.671 INFO  [main]com.jg.blog.BlogApplication.logStarted:61 -Started BlogApplication in 10.781 seconds (JVM running for 12.732)
+2020-05-17 20:54:07.902 INFO  [cluster-ClusterId{value='5ec133ee0222c4738ba80d5d', description='null'}-localhost:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-05-17 20:54:37.562 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-LD5PAQI with PID 16480 (E:\Idea代码\blog\target\classes started by adminstrator in E:\Idea代码\blog)
+2020-05-17 20:54:37.570 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-17 20:54:39.098 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-17 20:54:39.138 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 32ms. Found 0 MongoDB repository interfaces.
+2020-05-17 20:54:39.996 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 1000 (http)
+2020-05-17 20:54:40.007 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-05-17 20:54:40.007 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-05-17 20:54:40.008 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-17 20:54:40.159 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-05-17 20:54:40.159 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2465 ms
+2020-05-17 20:54:41.064 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-05-17 20:54:45.643 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-05-17 20:54:46.444 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-17 20:54:46.904 INFO  [main]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-05-17 20:54:47.628 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-05-17 20:54:47.654 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-05-17 20:54:47.665 INFO  [main]com.jg.blog.BlogApplication.logStarted:61 -Started BlogApplication in 11.277 seconds (JVM running for 13.735)
+2020-05-17 20:54:47.951 INFO  [cluster-ClusterId{value='5ec13416396c470fe1b31212', description='null'}-localhost:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-05-17 20:55:05.017 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-LD5PAQI with PID 9948 (E:\Idea代码\blog\target\classes started by adminstrator in E:\Idea代码\blog)
+2020-05-17 20:55:05.032 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-17 20:55:06.880 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-17 20:55:06.911 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 25ms. Found 0 MongoDB repository interfaces.
+2020-05-17 20:55:07.962 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 1000 (http)
+2020-05-17 20:55:07.972 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-05-17 20:55:07.973 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-05-17 20:55:07.973 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-17 20:55:08.119 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-05-17 20:55:08.119 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 3002 ms
+2020-05-17 20:55:08.905 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-05-17 20:55:13.056 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-05-17 20:55:13.787 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-17 20:55:14.255 INFO  [main]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-05-17 20:55:15.068 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-05-17 20:55:15.094 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-05-17 20:55:15.105 INFO  [main]com.jg.blog.BlogApplication.logStarted:61 -Started BlogApplication in 11.333 seconds (JVM running for 13.05)
+2020-05-17 20:55:15.340 INFO  [cluster-ClusterId{value='5ec13432769ac57666f55ce7', description='null'}-localhost:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-05-17 20:56:41.241 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-LD5PAQI with PID 22996 (E:\Idea代码\blog\target\classes started by adminstrator in E:\Idea代码\blog)
+2020-05-17 20:56:41.250 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-17 20:56:44.038 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-17 20:56:44.080 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 32ms. Found 0 MongoDB repository interfaces.
+2020-05-17 20:56:45.033 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 1000 (http)
+2020-05-17 20:56:45.052 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-05-17 20:56:45.053 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-05-17 20:56:45.054 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-17 20:56:45.244 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-05-17 20:56:45.244 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 3867 ms
+2020-05-17 20:56:46.138 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-05-17 20:56:50.506 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-05-17 20:56:51.336 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-17 20:56:51.786 INFO  [main]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-05-17 20:56:52.440 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-05-17 20:56:52.467 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-05-17 20:56:52.478 INFO  [main]com.jg.blog.BlogApplication.logStarted:61 -Started BlogApplication in 12.592 seconds (JVM running for 14.552)
+2020-05-17 20:56:52.836 INFO  [cluster-ClusterId{value='5ec134932aba622946d09c48', description='null'}-localhost:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-05-17 21:02:05.280 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-LD5PAQI with PID 24668 (E:\Idea代码\blog\target\classes started by adminstrator in E:\Idea代码\blog)
+2020-05-17 21:02:05.289 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-17 21:02:07.183 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-17 21:02:07.217 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 28ms. Found 0 MongoDB repository interfaces.
+2020-05-17 21:02:08.059 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 1000 (http)
+2020-05-17 21:02:08.069 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-05-17 21:02:08.070 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-05-17 21:02:08.071 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-17 21:02:08.228 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-05-17 21:02:08.229 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2699 ms
+2020-05-17 21:02:09.048 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-05-17 21:02:13.115 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-05-17 21:02:13.852 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-17 21:02:14.177 INFO  [main]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-05-17 21:02:14.792 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-05-17 21:02:14.824 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-05-17 21:02:14.836 INFO  [main]com.jg.blog.BlogApplication.logStarted:61 -Started BlogApplication in 10.649 seconds (JVM running for 12.841)
+2020-05-17 21:02:15.225 INFO  [cluster-ClusterId{value='5ec135d61286010b63070970', description='null'}-localhost:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-05-17 21:04:06.443 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-LD5PAQI with PID 25584 (E:\Idea代码\blog\target\classes started by adminstrator in E:\Idea代码\blog)
+2020-05-17 21:04:06.509 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-17 21:04:08.660 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-17 21:04:08.701 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 34ms. Found 0 MongoDB repository interfaces.
+2020-05-17 21:04:09.863 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 1000 (http)
+2020-05-17 21:04:09.879 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-05-17 21:04:09.882 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-05-17 21:04:09.884 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-17 21:04:10.054 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-05-17 21:04:10.055 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 3012 ms
+2020-05-17 21:04:11.180 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-05-17 21:04:16.082 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-05-17 21:04:16.984 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-17 21:04:17.395 INFO  [main]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-05-17 21:04:18.171 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-05-17 21:04:18.205 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-05-17 21:04:18.220 INFO  [main]com.jg.blog.BlogApplication.logStarted:61 -Started BlogApplication in 13.392 seconds (JVM running for 16.056)
+2020-05-17 21:04:18.446 INFO  [cluster-ClusterId{value='5ec13651bec8996056434d54', description='null'}-localhost:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-05-17 21:06:51.030 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-LD5PAQI with PID 27008 (E:\Idea代码\blog\target\classes started by adminstrator in E:\Idea代码\blog)
+2020-05-17 21:06:51.066 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-17 21:06:53.049 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-17 21:06:53.117 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 56ms. Found 0 MongoDB repository interfaces.
+2020-05-17 21:06:54.385 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 1000 (http)
+2020-05-17 21:06:54.402 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-05-17 21:06:54.404 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-05-17 21:06:54.411 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-17 21:06:54.732 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-05-17 21:06:54.733 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 3384 ms
+2020-05-17 21:06:56.796 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-05-17 21:07:01.636 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-05-17 21:07:02.751 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-17 21:07:03.303 INFO  [main]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-05-17 21:07:04.209 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-05-17 21:07:04.247 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-05-17 21:07:04.268 INFO  [main]com.jg.blog.BlogApplication.logStarted:61 -Started BlogApplication in 14.65 seconds (JVM running for 16.963)
+2020-05-17 21:07:04.401 INFO  [cluster-ClusterId{value='5ec136f78baf3e02167103e3', description='null'}-localhost:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-05-17 21:10:01.147 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-LD5PAQI with PID 23688 (E:\Idea代码\blog\target\classes started by adminstrator in E:\Idea代码\blog)
+2020-05-17 21:10:01.165 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-17 21:10:02.565 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-17 21:10:02.602 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 31ms. Found 0 MongoDB repository interfaces.
+2020-05-17 21:10:03.610 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 1001 (http)
+2020-05-17 21:10:03.625 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1001"]
+2020-05-17 21:10:03.627 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-05-17 21:10:03.628 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-17 21:10:03.796 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-05-17 21:10:03.797 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2540 ms
+2020-05-17 21:10:04.694 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-05-17 21:10:08.845 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-05-17 21:10:09.698 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-17 21:10:10.081 INFO  [main]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-05-17 21:10:10.923 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1001"]
+2020-05-17 21:10:11.001 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 1001 (http) with context path ''
+2020-05-17 21:10:11.018 INFO  [main]com.jg.blog.BlogApplication.logStarted:61 -Started BlogApplication in 11.077 seconds (JVM running for 13.936)
+2020-05-17 21:10:11.126 INFO  [cluster-ClusterId{value='5ec137b21feafb70dc6ddf32', description='null'}-localhost:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-05-17 21:10:33.353 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-LD5PAQI with PID 25828 (E:\Idea代码\blog\target\classes started by adminstrator in E:\Idea代码\blog)
+2020-05-17 21:10:33.361 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-17 21:10:35.139 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-17 21:10:35.245 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 89ms. Found 0 MongoDB repository interfaces.
+2020-05-17 21:10:37.465 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2020-05-17 21:10:37.481 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-17 21:10:37.482 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-05-17 21:10:37.483 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-17 21:10:37.817 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-05-17 21:10:37.817 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 4323 ms
+2020-05-17 21:10:38.794 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-05-17 21:10:43.257 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-05-17 21:10:44.285 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-17 21:10:44.717 INFO  [main]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-05-17 21:10:45.402 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2020-05-17 21:10:45.435 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-17 21:10:45.452 INFO  [main]com.jg.blog.BlogApplication.logStarted:61 -Started BlogApplication in 13.384 seconds (JVM running for 16.339)
+2020-05-17 21:10:45.760 INFO  [cluster-ClusterId{value='5ec137d438ed591aa122ae62', description='null'}-localhost:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-05-17 21:11:14.062 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-LD5PAQI with PID 20772 (E:\Idea代码\blog\target\classes started by adminstrator in E:\Idea代码\blog)
+2020-05-17 21:11:14.069 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-17 21:11:16.223 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-17 21:11:16.266 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 36ms. Found 0 MongoDB repository interfaces.
+2020-05-17 21:11:17.226 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 1001 (http)
+2020-05-17 21:11:17.240 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1001"]
+2020-05-17 21:11:17.241 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-05-17 21:11:17.242 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-17 21:11:17.434 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-05-17 21:11:17.435 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 3184 ms
+2020-05-17 21:11:18.315 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-05-17 21:11:23.064 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-05-17 21:11:24.038 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-17 21:11:24.461 INFO  [main]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-05-17 21:11:25.519 INFO  [cluster-ClusterId{value='5ec137fc881b050ae7014d55', description='null'}-localhost:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-05-17 21:11:25.977 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1001"]
+2020-05-17 21:11:26.031 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 1001 (http) with context path ''
+2020-05-17 21:11:26.057 INFO  [main]com.jg.blog.BlogApplication.logStarted:61 -Started BlogApplication in 13.133 seconds (JVM running for 15.121)
+2020-05-17 21:12:39.022 INFO  [http-nio-1001-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-17 21:12:39.023 INFO  [http-nio-1001-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-05-17 21:12:39.041 INFO  [http-nio-1001-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 18 ms
+2020-05-17 21:12:39.079 INFO  [http-nio-1001-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:111 -请求地址 : /test/testException/1
+2020-05-17 21:12:39.080 INFO  [http-nio-1001-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -请求方式 : GET
+2020-05-17 21:12:39.082 INFO  [http-nio-1001-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:115 -IP : 0:0:0:0:0:0:0:1
+2020-05-17 21:12:39.084 INFO  [http-nio-1001-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:117 -方法 : com.jg.blog.controller.TestController.testException
+2020-05-17 21:12:39.085 INFO  [http-nio-1001-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求参数：[1]
+2020-05-17 21:12:39.091 INFO  [http-nio-1001-exec-2]com.jg.blog.aspect.RequestAspect.doAround:65 -耗时 : 12
+2020-05-17 21:12:39.165 INFO  [http-nio-1001-exec-2]com.jg.blog.aspect.RequestAspect.doAfterReturning:79 -返回值：{"code":20000,"encrypt":0,"msg":"操作成功！"}
+2020-05-17 21:16:54.822 INFO  [http-nio-1001-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:111 -请求地址 : /test/testException/1
+2020-05-17 21:16:54.823 INFO  [http-nio-1001-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -请求方式 : GET
+2020-05-17 21:16:54.824 INFO  [http-nio-1001-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:115 -IP : 0:0:0:0:0:0:0:1
+2020-05-17 21:16:54.825 INFO  [http-nio-1001-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:117 -方法 : com.jg.blog.controller.TestController.testException
+2020-05-17 21:16:54.826 INFO  [http-nio-1001-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求参数：[1]
+2020-05-17 21:16:54.829 INFO  [http-nio-1001-exec-3]com.jg.blog.aspect.RequestAspect.doAround:65 -耗时 : 7
+2020-05-17 21:16:54.830 INFO  [http-nio-1001-exec-3]com.jg.blog.aspect.RequestAspect.doAfterReturning:79 -返回值：{"code":20000,"encrypt":0,"msg":"操作成功！"}
+2020-05-17 21:17:51.577 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-LD5PAQI with PID 8176 (E:\Idea代码\blog\target\classes started by adminstrator in E:\Idea代码\blog)
+2020-05-17 21:17:51.645 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-17 21:17:53.620 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-17 21:17:53.652 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 24ms. Found 0 MongoDB repository interfaces.
+2020-05-17 21:17:54.767 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 1001 (http)
+2020-05-17 21:17:54.778 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1001"]
+2020-05-17 21:17:54.779 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-05-17 21:17:54.779 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-17 21:17:54.936 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-05-17 21:17:54.936 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 3137 ms
+2020-05-17 21:17:55.100 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-05-17 21:17:59.577 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-05-17 21:18:01.012 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-17 21:18:01.326 INFO  [main]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-05-17 21:18:02.021 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1001"]
+2020-05-17 21:18:02.047 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 1001 (http) with context path ''
+2020-05-17 21:18:02.058 INFO  [main]com.jg.blog.BlogApplication.logStarted:61 -Started BlogApplication in 11.553 seconds (JVM running for 13.407)
+2020-05-17 21:18:02.376 INFO  [cluster-ClusterId{value='5ec13989ff2ee00b8ff26895', description='null'}-localhost:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-05-17 21:19:08.182 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-LD5PAQI with PID 9100 (E:\Idea代码\blog\target\classes started by adminstrator in E:\Idea代码\blog)
+2020-05-17 21:19:08.192 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-17 21:19:10.476 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-17 21:19:10.527 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 43ms. Found 0 MongoDB repository interfaces.
+2020-05-17 21:19:11.540 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 1001 (http)
+2020-05-17 21:19:11.554 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1001"]
+2020-05-17 21:19:11.556 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-05-17 21:19:11.557 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-17 21:19:11.772 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-05-17 21:19:11.774 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 3452 ms
+2020-05-17 21:19:11.932 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-05-17 21:19:18.094 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-05-17 21:19:19.687 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-17 21:19:20.172 INFO  [main]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-05-17 21:19:21.247 INFO  [cluster-ClusterId{value='5ec139d8cfd72b2e9989e1d1', description='null'}-localhost:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-05-17 21:19:21.278 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1001"]
+2020-05-17 21:19:21.340 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 1001 (http) with context path ''
+2020-05-17 21:19:21.357 INFO  [main]com.jg.blog.BlogApplication.logStarted:61 -Started BlogApplication in 14.706 seconds (JVM running for 17.703)
+2020-05-17 21:19:37.854 INFO  [http-nio-1001-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-17 21:19:37.855 INFO  [http-nio-1001-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-05-17 21:19:37.874 INFO  [http-nio-1001-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 19 ms
+2020-05-17 21:19:37.939 INFO  [http-nio-1001-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:111 -请求地址 : /test/testException/1
+2020-05-17 21:19:37.940 INFO  [http-nio-1001-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -请求方式 : GET
+2020-05-17 21:19:37.941 INFO  [http-nio-1001-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:115 -IP : 0:0:0:0:0:0:0:1
+2020-05-17 21:19:37.943 INFO  [http-nio-1001-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:117 -方法 : com.jg.blog.controller.TestController.testException
+2020-05-17 21:19:37.943 INFO  [http-nio-1001-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求参数：[1]
+2020-05-17 21:19:37.953 INFO  [http-nio-1001-exec-1]com.jg.blog.aspect.RequestAspect.doAround:65 -耗时 : 14
+2020-05-17 21:19:38.032 INFO  [http-nio-1001-exec-1]com.jg.blog.aspect.RequestAspect.doAfterReturning:79 -返回值：{"code":20000,"encrypt":0,"msg":"操作成功！"}
+2020-05-17 21:23:05.243 INFO  [http-nio-1001-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:111 -请求地址 : /test/testException/2
+2020-05-17 21:23:05.244 INFO  [http-nio-1001-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -请求方式 : GET
+2020-05-17 21:23:05.245 INFO  [http-nio-1001-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:115 -IP : 0:0:0:0:0:0:0:1
+2020-05-17 21:23:05.246 INFO  [http-nio-1001-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:117 -方法 : com.jg.blog.controller.TestController.testException
+2020-05-17 21:23:05.247 INFO  [http-nio-1001-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求参数：[2]
+2020-05-17 21:28:31.873 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-LD5PAQI with PID 11164 (E:\Idea代码\blog\target\classes started by adminstrator in E:\Idea代码\blog)
+2020-05-17 21:28:31.882 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-17 21:28:34.036 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-17 21:28:34.083 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 41ms. Found 0 MongoDB repository interfaces.
+2020-05-17 21:28:36.074 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 1001 (http)
+2020-05-17 21:28:36.099 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1001"]
+2020-05-17 21:28:36.100 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-05-17 21:28:36.102 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-17 21:28:36.383 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-05-17 21:28:36.384 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 4198 ms
+2020-05-17 21:28:36.623 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-05-17 21:28:42.100 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-05-17 21:28:44.098 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-17 21:28:44.644 INFO  [main]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-05-17 21:28:45.523 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1001"]
+2020-05-17 21:28:45.563 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 1001 (http) with context path ''
+2020-05-17 21:28:45.581 INFO  [main]com.jg.blog.BlogApplication.logStarted:61 -Started BlogApplication in 15.529 seconds (JVM running for 18.368)
+2020-05-17 21:28:45.705 INFO  [cluster-ClusterId{value='5ec13c0c67c971596e41bc99', description='null'}-localhost:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-05-17 21:28:47.850 INFO  [http-nio-1001-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-17 21:28:47.851 INFO  [http-nio-1001-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-05-17 21:28:47.877 INFO  [http-nio-1001-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 25 ms
+2020-05-17 21:28:47.929 INFO  [http-nio-1001-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:111 -请求地址 : /test/testException/2
+2020-05-17 21:28:47.929 INFO  [http-nio-1001-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -请求方式 : GET
+2020-05-17 21:28:47.930 INFO  [http-nio-1001-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:115 -IP : 0:0:0:0:0:0:0:1
+2020-05-17 21:28:47.933 INFO  [http-nio-1001-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:117 -方法 : com.jg.blog.controller.TestController.testException
+2020-05-17 21:28:47.933 INFO  [http-nio-1001-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求参数：[2]
+2020-05-17 21:48:08.170 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-LD5PAQI with PID 14920 (E:\Idea代码\blog\target\classes started by adminstrator in E:\Idea代码\blog)
+2020-05-17 21:48:08.179 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-17 21:48:12.051 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-17 21:48:12.090 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 32ms. Found 0 MongoDB repository interfaces.
+2020-05-17 21:48:13.399 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 1001 (http)
+2020-05-17 21:48:13.415 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1001"]
+2020-05-17 21:48:13.417 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-05-17 21:48:13.418 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-17 21:48:14.045 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-05-17 21:48:14.046 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 5710 ms
+2020-05-17 21:48:14.309 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-05-17 21:48:19.377 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-05-17 21:48:21.940 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-17 21:48:22.400 INFO  [main]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-05-17 21:48:23.230 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1001"]
+2020-05-17 21:48:23.264 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 1001 (http) with context path ''
+2020-05-17 21:48:23.276 INFO  [main]com.jg.blog.BlogApplication.logStarted:61 -Started BlogApplication in 16.751 seconds (JVM running for 19.842)
+2020-05-17 21:48:23.455 INFO  [cluster-ClusterId{value='5ec140a601dc49778d0dc830', description='null'}-localhost:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-05-17 21:48:47.879 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-LD5PAQI with PID 5976 (E:\Idea代码\blog\target\classes started by adminstrator in E:\Idea代码\blog)
+2020-05-17 21:48:47.890 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-05-17 21:48:50.507 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-05-17 21:48:50.585 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 67ms. Found 0 MongoDB repository interfaces.
+2020-05-17 21:48:51.731 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 1001 (http)
+2020-05-17 21:48:51.746 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1001"]
+2020-05-17 21:48:51.747 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-05-17 21:48:51.748 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-17 21:48:51.995 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-05-17 21:48:51.995 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 3818 ms
+2020-05-17 21:48:52.214 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-05-17 21:48:57.429 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-05-17 21:48:59.294 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-17 21:48:59.740 INFO  [main]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-05-17 21:49:00.791 INFO  [cluster-ClusterId{value='5ec140cb5227dc62928f5532', description='null'}-localhost:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-05-17 21:49:00.809 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1001"]
+2020-05-17 21:49:00.915 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 1001 (http) with context path ''
+2020-05-17 21:49:00.944 INFO  [main]com.jg.blog.BlogApplication.logStarted:61 -Started BlogApplication in 14.737 seconds (JVM running for 17.313)
+2020-05-17 21:49:51.308 INFO  [http-nio-1001-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-17 21:49:51.309 INFO  [http-nio-1001-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-05-17 21:49:51.328 INFO  [http-nio-1001-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 19 ms
+2020-05-17 21:49:51.367 INFO  [http-nio-1001-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -请求地址 : /test/testException/2
+2020-05-17 21:49:51.368 INFO  [http-nio-1001-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:115 -请求方式 : GET
+2020-05-17 21:49:51.369 INFO  [http-nio-1001-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -IP : 0:0:0:0:0:0:0:1
+2020-05-17 21:49:51.371 INFO  [http-nio-1001-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:120 -方法 : com.jg.blog.controller.TestController.testException
+2020-05-17 21:49:51.372 INFO  [http-nio-1001-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -请求参数：[2]

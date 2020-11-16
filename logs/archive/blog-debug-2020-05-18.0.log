@@ -1,0 +1,360 @@
+2020-05-18 13:18:00.268 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-18 13:19:34.788 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-18 13:24:38.076 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-18 13:29:09.511 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-18 13:31:17.541 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-18 13:40:23.443 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-18 13:44:35.667 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-18 13:48:15.537 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-18 14:02:27.803 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 14:02:27.935 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 0(Integer), org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at com.jg.blog.controller.AdminController.login(AdminController.java:37)
+	at com.jg.blog.controller.AdminController$$FastClassBySpringCGLIB$$131e1a81.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.AdminController$$EnhancerBySpringCGLIB$$d8695ffa.login(<generated>)
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-05-18 14:02:28.193 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 14:02:51.623 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-18 14:03:57.699 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 14:03:57.734 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 0(Integer), org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at com.jg.blog.controller.AdminController.login(AdminController.java:37)
+	at com.jg.blog.controller.AdminController$$FastClassBySpringCGLIB$$131e1a81.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.AdminController$$EnhancerBySpringCGLIB$$2fe728d6.login(<generated>)
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-05-18 14:03:58.099 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 14:06:27.698 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-18 14:06:57.923 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 14:06:57.965 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 0(Integer), org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at com.jg.blog.controller.AdminController.login(AdminController.java:37)
+	at com.jg.blog.controller.AdminController$$FastClassBySpringCGLIB$$131e1a81.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.AdminController$$EnhancerBySpringCGLIB$$b318866c.login(<generated>)
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-05-18 14:06:58.224 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 14:07:12.765 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 14:07:12.767 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 0(Integer), org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at com.jg.blog.controller.AdminController.login(AdminController.java:37)
+	at com.jg.blog.controller.AdminController$$FastClassBySpringCGLIB$$131e1a81.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.AdminController$$EnhancerBySpringCGLIB$$b318866c.login(<generated>)
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-05-18 14:07:12.852 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 14:07:21.370 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 14:07:21.371 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 0(Integer), org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at com.jg.blog.controller.AdminController.login(AdminController.java:37)
+	at com.jg.blog.controller.AdminController$$FastClassBySpringCGLIB$$131e1a81.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.AdminController$$EnhancerBySpringCGLIB$$b318866c.login(<generated>)
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-05-18 14:07:21.898 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 14:08:34.102 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 14:08:34.105 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 0(Integer), org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at com.jg.blog.controller.AdminController.login(AdminController.java:37)
+	at com.jg.blog.controller.AdminController$$FastClassBySpringCGLIB$$131e1a81.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.AdminController$$EnhancerBySpringCGLIB$$b318866c.login(<generated>)
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-05-18 14:08:34.191 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 14:09:49.826 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-18 14:12:46.902 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 14:12:46.980 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 0(Integer), org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at com.jg.blog.controller.AdminController.login(AdminController.java:37)
+	at com.jg.blog.controller.AdminController$$FastClassBySpringCGLIB$$131e1a81.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.AdminController$$EnhancerBySpringCGLIB$$d2bed104.login(<generated>)
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-05-18 14:12:47.076 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 14:13:48.643 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 14:13:48.645 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 0(Integer), org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at com.jg.blog.controller.AdminController.login(AdminController.java:37)
+	at com.jg.blog.controller.AdminController$$FastClassBySpringCGLIB$$131e1a81.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.AdminController$$EnhancerBySpringCGLIB$$d2bed104.login(<generated>)
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-05-18 14:13:48.788 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 14:18:41.121 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-18 14:19:09.822 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 14:19:10.019 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 0(Integer), org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at com.jg.blog.controller.AdminController.login(AdminController.java:37)
+	at com.jg.blog.controller.AdminController$$FastClassBySpringCGLIB$$131e1a81.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.AdminController$$EnhancerBySpringCGLIB$$8f7fbbc2.login(<generated>)
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-05-18 14:19:10.126 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 14:20:15.525 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-18 14:22:12.272 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 14:22:12.336 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 0(Integer), org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at com.jg.blog.controller.AdminController.login(AdminController.java:37)
+	at com.jg.blog.controller.AdminController$$FastClassBySpringCGLIB$$131e1a81.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.AdminController$$EnhancerBySpringCGLIB$$e4783c0d.login(<generated>)
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-05-18 14:22:12.486 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 14:22:22.203 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-18 14:22:42.365 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 14:22:42.422 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 0(Integer), org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at com.jg.blog.controller.AdminController.login(AdminController.java:37)
+	at com.jg.blog.controller.AdminController$$FastClassBySpringCGLIB$$131e1a81.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.AdminController$$EnhancerBySpringCGLIB$$7580f84c.login(<generated>)
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-05-18 14:22:42.592 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 14:49:29.587 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-18 14:49:53.397 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 14:49:53.479 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 0(Integer), org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at com.jg.blog.controller.AdminController.login(AdminController.java:37)
+	at com.jg.blog.controller.AdminController$$FastClassBySpringCGLIB$$131e1a81.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.AdminController$$EnhancerBySpringCGLIB$$fd1aee11.login(<generated>)
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-05-18 14:49:53.671 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 14:51:29.223 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-18 14:51:42.412 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 14:51:42.465 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 0(Integer), org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at com.jg.blog.controller.AdminController.login(AdminController.java:37)
+	at com.jg.blog.controller.AdminController$$FastClassBySpringCGLIB$$131e1a81.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.AdminController$$EnhancerBySpringCGLIB$$56999544.login(<generated>)
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-05-18 14:51:42.564 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 14:57:50.857 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-18 14:58:51.558 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 14:58:51.613 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 0(Integer), org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at com.jg.blog.controller.AdminController.login(AdminController.java:37)
+	at com.jg.blog.controller.AdminController$$FastClassBySpringCGLIB$$131e1a81.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.AdminController$$EnhancerBySpringCGLIB$$8f254177.login(<generated>)
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-05-18 14:58:51.714 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 15:03:58.603 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-18 15:04:13.229 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 15:04:13.268 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 0(Integer), org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at com.jg.blog.controller.AdminController.login(AdminController.java:37)
+	at com.jg.blog.controller.AdminController$$FastClassBySpringCGLIB$$131e1a81.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.AdminController$$EnhancerBySpringCGLIB$$2fe728d6.login(<generated>)
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-05-18 15:04:13.512 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 15:08:51.037 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-18 15:13:09.480 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 15:13:09.513 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 0(Integer), org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at com.jg.blog.controller.AdminController.login(AdminController.java:37)
+	at com.jg.blog.controller.AdminController$$FastClassBySpringCGLIB$$131e1a81.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.AdminController$$EnhancerBySpringCGLIB$$7a875ca9.login(<generated>)
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-05-18 15:13:09.607 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 15:21:41.776 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-18 15:30:56.725 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username = ? 
+2020-05-18 15:30:56.764 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: admin(String)
+2020-05-18 15:30:56.948 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-05-18 15:30:57.355 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 15:30:57.359 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 395(Long), {"code":20000,"data":{"token":"DE4D51421030A2F3B55A82C748601A6B"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 15:30:57.447 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 15:42:15.298 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username = ? 
+2020-05-18 15:42:15.303 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: admin(String)
+2020-05-18 15:42:15.396 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-05-18 15:42:15.490 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 15:42:15.492 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 211(Long), {"code":20000,"data":{"token":"DE4D51421030A2F3B55A82C748601A6B"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 15:42:15.579 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 15:43:54.602 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username = ? 
+2020-05-18 15:43:54.604 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: admin(String)
+2020-05-18 15:43:54.649 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-05-18 15:43:54.705 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 15:43:54.710 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 114(Long), {"code":20000,"data":{"token":"DE4D51421030A2F3B55A82C748601A6B"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 15:43:54.799 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 15:51:02.805 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username = ? 
+2020-05-18 15:51:02.807 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: admin(String)
+2020-05-18 15:51:02.856 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-05-18 15:51:02.912 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 15:51:02.914 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 113(Long), {"code":20000,"data":{"token":"DE4D51421030A2F3B55A82C748601A6B"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 15:51:03.003 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 15:52:43.930 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-18 15:53:08.570 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username = ? 
+2020-05-18 15:53:08.607 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: admin(String)
+2020-05-18 15:53:08.677 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-05-18 15:53:08.837 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 15:53:08.844 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 215(Long), {"code":20000,"data":{"token":"037D48FEC48EA88ECE02498E22FC1599"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 15:53:08.932 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 15:53:12.712 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 15:53:12.714 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /test/testException/1(String), [1](String), 1(Integer), null, GET(String), 5(Long), {"code":20000,"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 15:53:12.799 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 15:55:21.666 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username = ? 
+2020-05-18 15:55:21.672 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: admin(String)
+2020-05-18 15:55:21.718 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-05-18 15:55:21.770 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 15:55:21.774 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 134(Long), {"code":20000,"data":{"token":"037D48FEC48EA88ECE02498E22FC1599"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 15:55:21.858 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 15:56:32.191 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username = ? 
+2020-05-18 15:56:32.192 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: admin(String)
+2020-05-18 15:56:32.237 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-05-18 15:56:32.292 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 15:56:32.294 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 108(Long), {"code":20000,"data":{"token":"037D48FEC48EA88ECE02498E22FC1599"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 15:56:32.382 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 15:58:13.344 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-18 15:58:43.122 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username = ? 
+2020-05-18 15:58:43.163 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: admin(String)
+2020-05-18 15:58:43.236 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-05-18 15:58:43.390 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 15:58:43.398 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 217(Long), {"code":20000,"data":{"token":"699AE6F00BB2057008396CC4B8594388"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 15:58:43.485 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 15:58:47.974 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username = ? 
+2020-05-18 15:58:47.976 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: admin(String)
+2020-05-18 15:58:48.019 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-05-18 15:58:48.066 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 15:58:48.067 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 111(Long), {"code":20000,"data":{"token":"699AE6F00BB2057008396CC4B8594388"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 15:58:48.153 DEBUG [http-nio-1001-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 15:58:50.340 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 15:58:50.342 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /test/testException/1(String), [1](String), 1(Integer), null, GET(String), 4(Long), {"code":20000,"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 15:58:50.426 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 15:58:56.964 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username = ? 
+2020-05-18 15:58:56.966 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: admin(String)
+2020-05-18 15:58:57.010 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-05-18 15:58:57.057 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 15:58:57.059 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 100(Long), {"code":20000,"data":{"token":"699AE6F00BB2057008396CC4B8594388"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 15:58:57.148 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 16:03:22.709 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username = ? 
+2020-05-18 16:03:22.714 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: admin(String)
+2020-05-18 16:03:22.783 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-05-18 16:03:22.841 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 16:03:22.843 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 183(Long), {"code":20000,"data":{"token":"699AE6F00BB2057008396CC4B8594388"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 16:03:22.934 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 16:05:18.972 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-18 16:05:40.708 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username = ? 
+2020-05-18 16:05:40.746 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: admin(String)
+2020-05-18 16:05:40.816 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-05-18 16:05:40.966 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 16:05:40.972 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 217(Long), {"code":20000,"data":{"token":"08614F331C2B05AAFCD12560DA96BF04"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 16:05:41.061 DEBUG [http-nio-1001-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 16:11:27.541 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username = ? 
+2020-05-18 16:11:27.544 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: admin(String)
+2020-05-18 16:11:27.595 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-05-18 16:11:27.653 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 16:11:27.655 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 137(Long), {"code":20000,"data":{"token":"08614F331C2B05AAFCD12560DA96BF04"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 16:11:27.744 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 16:12:05.529 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 16:12:05.532 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/info(String), [](String), 1(Integer), null, GET(String), 9(Long), {"code":20000,"data":{"name":"稽哥","password":"","signature":"热肠溶","username":"admin"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 16:12:05.626 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 16:12:35.987 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 16:12:35.989 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/info(String), [](String), 1(Integer), null, GET(String), 3(Long), {"code":20000,"data":{"name":"稽哥","password":"","signature":"热肠溶","username":"admin"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 16:12:36.449 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 18:02:58.224 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-18 18:14:34.977 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username = ? 
+2020-05-18 18:14:35.029 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: admin(String)
+2020-05-18 18:14:35.130 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-05-18 18:14:35.316 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 18:14:35.322 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 300(Long), {"code":20000,"data":{"token":"324347939016B656696CF49CC0430578"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 18:14:35.411 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 18:15:00.657 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username = ? 
+2020-05-18 18:15:00.658 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: admin(String)
+2020-05-18 18:15:00.888 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-05-18 18:15:01.061 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 18:15:01.062 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 365(Long), {"code":20000,"data":{"token":"324347939016B656696CF49CC0430578"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 18:15:01.157 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 18:15:23.691 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username = ? 
+2020-05-18 18:15:23.693 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: admin(String)
+2020-05-18 18:15:23.878 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-05-18 18:15:23.927 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 18:15:23.929 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 336(Long), {"code":20000,"data":{"token":"324347939016B656696CF49CC0430578"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 18:15:24.019 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 18:25:46.101 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count from bl_type where deleted = 0 and type_name = ? 
+2020-05-18 18:25:46.108 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==> Parameters: Java(String)
+2020-05-18 18:25:46.164 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -<==      Total: 0
+2020-05-18 18:25:46.226 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 18:25:46.227 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/save(String), [Type(typeId=null, typeName=Java, typeBlogCount=null, enable=null, deleted=null)](String), 1(Integer), null, POST(String), 183(Long), {"code":20000,"msg":"添加成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 18:25:46.312 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 18:25:54.250 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count from bl_type where deleted = 0 and type_name = ? 
+2020-05-18 18:25:54.251 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==> Parameters: Java(String)
+2020-05-18 18:25:54.294 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -<==      Total: 0
+2020-05-18 18:25:54.344 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 18:25:54.345 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/save(String), [Type(typeId=null, typeName=Java, typeBlogCount=null, enable=null, deleted=null)](String), 1(Integer), null, POST(String), 106(Long), {"code":20000,"msg":"添加成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 18:25:54.429 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 18:26:03.582 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count from bl_type where deleted = 0 and type_name = ? 
+2020-05-18 18:26:03.584 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==> Parameters: Java(String)
+2020-05-18 18:26:03.634 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -<==      Total: 0
+2020-05-18 18:26:03.690 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 18:26:03.691 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/save(String), [Type(typeId=null, typeName=Java, typeBlogCount=null, enable=null, deleted=null)](String), 1(Integer), null, POST(String), 109(Long), {"code":20000,"msg":"添加成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 18:26:04.038 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 18:26:44.222 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count from bl_type where deleted = 0 and type_name = ? 
+2020-05-18 18:26:44.224 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==> Parameters: Java(String)
+2020-05-18 18:26:44.268 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -<==      Total: 0
+2020-05-18 18:26:44.339 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 18:26:44.342 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/save(String), [Type(typeId=null, typeName=Java, typeBlogCount=null, enable=null, deleted=null)](String), 1(Integer), null, POST(String), 115(Long), {"code":20000,"msg":"添加成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 18:26:44.428 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 18:26:46.672 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count from bl_type where deleted = 0 and type_name = ? 
+2020-05-18 18:26:46.673 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==> Parameters: Java(String)
+2020-05-18 18:26:46.714 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -<==      Total: 0
+2020-05-18 18:26:46.765 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 18:26:46.768 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/save(String), [Type(typeId=null, typeName=Java, typeBlogCount=null, enable=null, deleted=null)](String), 1(Integer), null, POST(String), 93(Long), {"code":20000,"msg":"添加成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 18:26:46.852 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 18:28:03.556 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-05-18 18:29:46.130 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username = ? 
+2020-05-18 18:29:46.165 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: admin(String)
+2020-05-18 18:29:46.316 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-05-18 18:29:46.594 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 18:29:46.598 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 346(Long), {"code":20000,"data":{"token":"132C43FE8EC9C5BE335385E8E23DCDBA"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 18:29:46.690 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 18:30:18.895 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username = ? 
+2020-05-18 18:30:18.898 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: admin(String)
+2020-05-18 18:30:19.102 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-05-18 18:30:19.468 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 18:30:19.470 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 399(Long), {"code":20000,"data":{"token":"132C43FE8EC9C5BE335385E8E23DCDBA"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 18:30:19.559 DEBUG [http-nio-1001-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 18:30:24.873 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count from bl_type where deleted = 0 and type_name = ? 
+2020-05-18 18:30:24.874 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==> Parameters: Java(String)
+2020-05-18 18:30:24.919 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -<==      Total: 0
+2020-05-18 18:30:24.968 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.TypeMapper.insert.debug:159 -==>  Preparing: insert into bl_type(type_name) values( ? ) 
+2020-05-18 18:30:24.969 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.TypeMapper.insert.debug:159 -==> Parameters: Java(String)
+2020-05-18 18:30:25.058 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.TypeMapper.insert.debug:159 -<==    Updates: 1
+2020-05-18 18:30:25.114 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 18:30:25.117 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/save(String), [Type(typeId=null, typeName=Java, typeBlogCount=null, enable=null, deleted=null)](String), 1(Integer), null, POST(String), 255(Long), {"code":20000,"msg":"添加成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 18:30:25.205 DEBUG [http-nio-1001-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 18:30:27.309 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count from bl_type where deleted = 0 and type_name = ? 
+2020-05-18 18:30:27.310 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==> Parameters: Java(String)
+2020-05-18 18:30:27.354 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -<==      Total: 1
+2020-05-18 18:30:27.403 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 18:30:27.404 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/save(String), [Type(typeId=null, typeName=Java, typeBlogCount=null, enable=null, deleted=null)](String), 0(Integer), com.jg.blog.exception.BlogException: 改分类已经存在
+	at com.jg.blog.service.impl.TypeServiceImpl.save(TypeServiceImpl.java:35)
+	at com.jg.blog.controller.TypeController.save(TypeController.java:35)
+	at com.jg.blog.controller.TypeController$$FastClassBySpringCGLIB$$e1d28180.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:66)
+	at com.jg.blog.controller.TypeController$$EnhancerBySpringCGLIB$$1a519e8f.save(<generated>)
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-05-18 18:30:27.512 DEBUG [http-nio-1001-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 18:33:29.325 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count from bl_type where deleted = 0 and type_name = ? 
+2020-05-18 18:33:29.327 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==> Parameters: lINUX(String)
+2020-05-18 18:33:29.415 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -<==      Total: 0
+2020-05-18 18:33:29.486 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.TypeMapper.insert.debug:159 -==>  Preparing: insert into bl_type(type_name) values( ? ) 
+2020-05-18 18:33:29.488 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.TypeMapper.insert.debug:159 -==> Parameters: lINUX(String)
+2020-05-18 18:33:29.577 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.TypeMapper.insert.debug:159 -<==    Updates: 1
+2020-05-18 18:33:29.629 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 18:33:29.631 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/save(String), [Type(typeId=null, typeName=lINUX, typeBlogCount=null, enable=null, deleted=null)](String), 1(Integer), null, POST(String), 333(Long), {"code":20000,"msg":"添加成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 18:33:29.720 DEBUG [http-nio-1001-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 18:33:37.795 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count from bl_type where deleted = 0 and type_name = ? 
+2020-05-18 18:33:37.796 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==> Parameters: docker(String)
+2020-05-18 18:33:37.840 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -<==      Total: 0
+2020-05-18 18:33:37.890 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.TypeMapper.insert.debug:159 -==>  Preparing: insert into bl_type(type_name) values( ? ) 
+2020-05-18 18:33:37.890 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.TypeMapper.insert.debug:159 -==> Parameters: docker(String)
+2020-05-18 18:33:37.980 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.TypeMapper.insert.debug:159 -<==    Updates: 1
+2020-05-18 18:33:38.029 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 18:33:38.030 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/save(String), [Type(typeId=null, typeName=docker, typeBlogCount=null, enable=null, deleted=null)](String), 1(Integer), null, POST(String), 236(Long), {"code":20000,"msg":"添加成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 18:33:38.118 DEBUG [http-nio-1001-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 18:35:33.950 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username = ? 
+2020-05-18 18:35:33.953 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: admin(String)
+2020-05-18 18:35:34.046 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-05-18 18:35:34.144 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 18:35:34.146 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 204(Long), {"code":20000,"data":{"token":"132C43FE8EC9C5BE335385E8E23DCDBA"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 18:35:34.493 DEBUG [http-nio-1001-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 18:35:57.756 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username = ? 
+2020-05-18 18:35:57.758 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: admin(String)
+2020-05-18 18:35:57.804 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-05-18 18:35:57.855 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 18:35:57.857 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 104(Long), {"code":20000,"data":{"token":"132C43FE8EC9C5BE335385E8E23DCDBA"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 18:35:57.947 DEBUG [http-nio-1001-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-05-18 18:37:51.897 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable from bl_type where deleted = 0 
+2020-05-18 18:37:51.900 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -==> Parameters: 
+2020-05-18 18:37:51.952 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -<==      Total: 3
+2020-05-18 18:37:52.060 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-18 18:37:52.063 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/listBack(String), [](String), 1(Integer), null, GET(String), 129(Long), {"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":6,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"lINUX"},{"enable":1,"typeBlogCount":0,"typeId":8,"typeName":"docker"}],"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-05-18 18:37:52.157 DEBUG [http-nio-1001-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1

@@ -1,0 +1,11 @@
+2020-05-19 10:18:38.577 WARN  [http-nio-1001-exec-6]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-05-19 10:53:00.072 WARN  [http-nio-1001-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /login.jsp
+2020-05-19 10:53:20.641 WARN  [http-nio-1001-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /login.jsp
+2020-05-19 10:53:22.107 WARN  [http-nio-1001-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /login.jsp
+2020-05-19 10:53:22.995 WARN  [http-nio-1001-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /login.jsp
+2020-05-19 11:10:14.336 WARN  [http-nio-1001-exec-6]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-05-19 11:11:02.372 WARN  [http-nio-1001-exec-8]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-05-19 11:17:30.784 WARN  [http-nio-1001-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for PUT /type/eabled/6
+2020-05-19 14:08:55.378 WARN  [http-nio-1001-exec-1]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+2020-05-19 14:09:04.825 WARN  [http-nio-1001-exec-4]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+2020-05-19 20:02:10.070 WARN  [http-nio-1001-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for DELETE /log/delete/1262709163762089984
